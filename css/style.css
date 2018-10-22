@@ -1,0 +1,43 @@
+
+/*GERAL*/
+body {
+  box-sizing: border-box;
+}
+:root{
+  /*cores*/
+--footer-grey: #3C3C3B;
+--font-grey: #575756;
+--background-grey:#F6F6F6;
+--partners-yellow: #FDD326;
+--primary-green: #60AB3E;
+--brigade-red: #BD1819;
+/*fim cores*/ 
+}
+
+.span__vermelho {
+  color: var(--brigade-red);
+}
+.span__cinza{
+  color: var(--footer-grey);
+}
+
+/*fim GERAL*/
+
+/* footer */
+.footer{
+  background-color: var(--footer-grey);
+  color: var(--background-grey);
+}
+.title-footer{
+  font-size: 30px;
+  font-weight: bold;
+  width: 30%;
+  margin: 0;
+}
+.address-footer {
+  width: 23%;
+  font-size: 13px;
+  margin: 0;
+  text-align: end;
+}
+
