@@ -1,0 +1,120 @@
+:root{
+  /*cores*/
+--footer-grey: #3C3C3B;
+--font-grey: #575756;
+--background-grey:#F6F6F6;
+--partners-yellow: #FDD326;
+--primary-green: #60AB3E;
+--brigade-red: #BD1819;
+/*fim cores*/ 
+}
+
+/*GERAL*/
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--font-grey);
+}
+
+/* NAVBAR */
+
+nav .header__logo_at{
+    max-width: 80px;
+}
+  .nav__bg__at {
+    background-color:rgba(255, 255, 255, 0.466);
+    position:fixed;
+    width: 100vw;
+    z-index: 99;
+    transition: all .5s;
+}
+  .nav__logo_at {
+    width: 170px;
+    height: 45px;
+}
+  .nav__at {
+    margin-left: 40%;
+    font-weight: bold;
+}
+
+
+/*--- BANNER PRINCIPAL > PRODUZINDO CERTO ---*/
+
+.header__produto__at {
+    height: 80vh;
+    background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 70%, #000000 100%), url(../assets/img/producao/capa-produtor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*espaçamento do titulo do <h1> */
+.produto__header_at {
+    margin: 0 100px;
+}
+
+/*cor e estilo do titulo do <h1> */
+.produto__header__titulo_at {
+    color: var(--background-grey);
+    margin: 0 auto;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.produto__titulo__produtor-rural_at {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--primary-green);
+}
+
+.produto__titulo__empresa_at {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f58634;
+}
+
+.produto__titulo__empresa_at {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f58634;
+}
+
+
+/*botao*/
+.btn__green_at {
+    background-color: var(--primary-green);
+    border: none;
+    width: 130px;
+    border-radius: 20px;
+    font-weight: bold; 
+}
+
+
+/*--- FOOTER ---*/
+
+.footer{
+    background-color: var(--footer-grey);
+    color: var(--background-grey);
+  }
+  .footer_title{
+    font-size: 40px;
+    font-weight: bold;
+    width: 34%;
+    margin: 0;
+  }
+  .footer_social-media {
+    margin-bottom: 20px;
+  }
+  .footer_img{
+    width: 25px;
+  }
+  .footer_address{
+    font-size: 13px;
+    margin: 0;
+    text-align: end;
+    margin-bottom: 20px;
+  }
+  .footer_logo{
+    width: 40%;
+  }
+  
