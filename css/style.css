@@ -29,15 +29,22 @@ body {
   color: var(--background-grey);
 }
 .footer_title{
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
-  width: 30%;
+  width: 34%;
   margin: 0;
+}
+.footer_social-media {
+  margin-bottom: 20px;
+}
+.footer_img{
+  width: 25px;
 }
 .footer_address{
   font-size: 13px;
   margin: 0;
   text-align: end;
+  margin-bottom: 20px;
 }
 .footer_logo{
   width: 40%;
