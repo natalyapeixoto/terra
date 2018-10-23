@@ -2,6 +2,8 @@
 /*GERAL*/
 body {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--font-grey);
 }
 :root{
   /*cores*/
@@ -22,3 +24,50 @@ body {
 }
 
 /*fim GERAL*/
+
+/* Início do estilo para a seção o nosso diferencial */
+.home-differential_title, .home-impact_title{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.home-differential_text{
+  border-left: 2px solid var(--primary-green);
+  padding-left: 30px;
+}
+/* Fim do estilo para a seção o nosso diferencial */
+
+/* Início do estilo para a seção impacto */
+.home-impact_card{
+  background-color: var(--primary-green);
+  border-radius: calc(1rem - 1px);
+  width: 18rem;
+}
+.home-impact_img{
+  width: 30%;
+  height: 60px;
+  margin-top: 40px;
+}
+.home-impact_text{
+  color: var(--background-grey);
+  font-weight: 500;
+  padding: 0 20px;
+  text-align: center;
+}
+.strong__branco{
+  font-weight: bold;
+  font-size: 40px;
+}
+.home-impac_btn{
+  border: none;
+  background: white;
+}
+.home-impac_btn:focus{
+  outline: none;
+}
+.home-impact_modal-contect{
+  background-color: var(--background-grey);
+}
+
+/* Fim do estilo para a seção impacto */
