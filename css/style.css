@@ -3,6 +3,7 @@
 body {
   box-sizing: border-box;
   font-family: 'Open Sans';
+  color: var(--font-grey);
 }
 :root{
   /*cores*/
@@ -22,9 +23,49 @@ body {
   color: var(--footer-grey);
 }
 
+.span__amarelo {
+  color: var(--partners-yellow);
+}
+
+.span__verde {
+  color: var(--primary-green);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
 /*fim GERAL*/
 
-/* header */
+/* NAV */
+
+nav .header__logo_at{
+  max-width: 80px;
+}
+.nav__bg__at {
+  background-color:rgba(255, 255, 255, 0.466);
+  position:fixed;
+  width: 100vw;
+  z-index: 99;
+  transition: all .5s;
+}
+.nav__logo_at {
+  width: 170px;
+  height: 45px;
+}
+.nav__at {
+  margin-left: 40%;
+  font-weight: bold;
+}
+
+/* fim NAV */
+
+/*HEADER HOME*/
 
 .carousel-indicators li {
   width: 15px;
@@ -33,35 +74,39 @@ body {
   border: 2px solid #ffffff;
 }
 
-.header__carousel_at img{
+.home__header__carousel_at img{
   object-fit: cover;
   height: 100vh;
 }
 
-.text__right_at{
+.home__banner__img_at {
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75% #000000 100%);
+}
+
+.home__text__right_at{
   text-align: right;
   left: 42%;
 }
-.text__at {
+.home__text__at {
   text-align: left;
 }
 
-.title__at {
+.home__title__at {
   font-size: 9vh;
   font-weight: bold;
-  text-shadow: 0 0 1px grey;
+  text-shadow: 0 0 1px var(--footer-grey);
   max-width: 110vh;
 }
 
-.title2__at {
+.home__title2__at {
   font-size: 9vh;
   font-weight: bold;
-  text-shadow: 0 0 1px grey;
+  text-shadow: 0 0 1px var(--footer-grey);
   max-width: 130vh;
 }
 
-.btn__green_at {
-  background-color: #60AB3E;
+.home__btn__green_at {
+  background-color: var(--primary-green);
   border: none;
   width: 130px;
   border-radius: 20px;
@@ -69,8 +114,8 @@ body {
   margin-right: 30px;
 }
 
-.btn__red_at {
-  background-color: #BD1819;
+.home__btn__red_at {
+  background-color: var(--brigade-red);
   border: none;
   width: 130px;
   border-radius: 20px;
@@ -78,11 +123,141 @@ body {
   margin-right: 30px;
 }
 
-.btn__yellow_at {
-  background-color: #FDD326;
+.home__btn__yellow_at {
+  background-color: var(--partners-yellow);
   border: none;
   width: 130px;
   border-radius: 20px;
   font-weight: bold;
   margin-right: 30px;
+}
+
+/*fim HEADER HOME */
+
+/*MAIN HOME*/
+.home__row__margin_at {
+  margin: 50px;
+}
+
+.home__card-img_at{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__card-img-logo_at{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__card-img_at img {
+  width: 30vh;
+  height: 30vh;
+}
+
+.home__card-img-logo_at img {
+  width: 26vh;
+  height: 30vh;
+}
+
+.home__card__title_at {
+  font-size: 40px;
+}
+
+.home__card__title2_at {
+  font-size: 40px;
+  text-align: right;
+}
+
+.home__card__text2_at {
+  text-align: right;
+}
+
+.home__col_at {
+  padding: 10px 0;
+}
+
+.home__border-left_at {
+  border-left: 2px solid var(--primary-green);
+}
+
+.home__border-right_at {
+  border-right: 2px solid var(--primary-green);
+}
+
+.home__body-right_at {
+  padding: 0 20px 0 0;
+}
+
+.home__body-left_at {
+  padding: 0 0 0 20px;
+}
+
+/*IMPACT*/
+
+.home__impact_at img{
+  width: 80vh;
+  height: 60vh;
+  object-fit: fill;
+}
+
+.home__impact_at p{
+  font-size: 20px;
+  padding-top: 60px;
+}
+
+.home__impact_at {
+  background-color: var(--background-grey)
+}
+
+.home__impact__row_at {
+  padding: 0 50px 0 70px;
+}
+
+
+
+.home__impact__btn__green_at {
+  background-color: var(--primary-green);
+  border: none;
+  width: 180px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+.home__impact__img_at {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* footer */
+.footer{
+  background-color: var(--footer-grey);
+  color: var(--background-grey);
+}
+.footer_title{
+  font-size: 40px;
+  font-weight: bold;
+  width: 34%;
+  margin: 0;
+}
+.footer_social-media {
+  margin-bottom: 20px;
+}
+.footer_img{
+  width: 25px;
+}
+.footer_address{
+  font-size: 13px;
+  margin: 0;
+  text-align: end;
+  margin-bottom: 20px;
+}
+.footer_logo{
+  width: 40%;
 }
