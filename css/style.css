@@ -28,16 +28,18 @@ body {
   background-color: var(--footer-grey);
   color: var(--background-grey);
 }
-.title-footer{
+.footer_title{
   font-size: 30px;
   font-weight: bold;
   width: 30%;
   margin: 0;
 }
-.address-footer {
-  width: 23%;
+.footer_address{
   font-size: 13px;
   margin: 0;
   text-align: end;
+}
+.footer_logo{
+  width: 40%;
 }
 
