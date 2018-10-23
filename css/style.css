@@ -19,6 +19,9 @@ a{
   text-decoration:none;
   color:inherit;
 }
+a:hover {
+  color:inherit;
+}
 
 .span__vermelho {
   color: var(--brigade-red);
@@ -28,8 +31,6 @@ a{
 }
 
 /*fim GERAL*/
-
-
 
 /*NAV BAR*/
 nav .header__logo_at{
@@ -50,8 +51,10 @@ nav .header__logo_at{
   margin-left: 40%;
   font-weight: bold;
 }
+/*FIM NAV BAR*/
+
 /*header brigada*/
-header {
+.header__brigada__at {
   height: 80vh;
   background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../img/capabrigada.jpg);
   background-size: cover;
@@ -63,9 +66,9 @@ header {
   margin-left: 45%;
   font-weight: bold;
 }
+/*fim da header brigada*/ 
 
-
-/*Primeira section*/ 
+/*Primeira section BRIGADA*/ 
 .logo-brigada__at {
   width: 150px;
   display: block;
@@ -86,8 +89,19 @@ header {
   top:-8px;
 }
 
-/*Segunda Section - Heróis Invisíveis*/
+/*Segunda Section BRIGADA - Heróis Invisíveis*/
 
 .heros__at{
-   background-color: var(--font-grey);
+   background-color: rgba(128, 128, 128, 0.637);
+}
+
+.heroes__img__at {
+  width: 20%;
+  margin: 5px;
+}
+.btn__brigada__at {
+  background-color: rgba(224, 223, 223, 0.842);
+  font-weight: bold;
+  border-radius: 20px;
+  color:var(--font-grey);
 }
