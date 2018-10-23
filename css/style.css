@@ -1,0 +1,93 @@
+
+/*GERAL*/
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+:root{
+  /*cores*/
+--footer-grey: #3C3C3B;
+--font-grey: #575756;
+--background-grey:#F6F6F6;
+--partners-yellow: #FDD326;
+--primary-green: #60AB3E;
+--brigade-red: #BD1819;
+/*fim cores*/ 
+}
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.span__vermelho {
+  color: var(--brigade-red);
+}
+.span__cinza{
+  color: var(--footer-grey);
+}
+
+/*fim GERAL*/
+
+
+
+/*NAV BAR*/
+nav .header__logo_at{
+  max-width: 80px;
+}
+.nav__bg__at {
+  background-color:rgba(255, 255, 255, 0.466);
+  position:fixed;
+  width: 100vw;
+  z-index: 99;
+  transition: all .5s;
+}
+.nav__logo_at {
+  width: 170px;
+  height: 45px;
+}
+.nav__at {
+  margin-left: 40%;
+  font-weight: bold;
+}
+/*header brigada*/
+header {
+  height: 80vh;
+  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../img/capabrigada.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__title_at {
+  color: var(--background-grey);
+  margin-left: 45%;
+  font-weight: bold;
+}
+
+
+/*Primeira section*/ 
+.logo-brigada__at {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+}
+.section__margin_at {
+  margin: 0 10%;
+}
+
+.text1-brigada__at {
+  font-size:26px;
+  line-height: 30px;
+  border-left: 1px solid #AB5056;
+  padding-left: 15px;
+}
+
+.text2-col__at {
+  top:-8px;
+}
+
+/*Segunda Section - Heróis Invisíveis*/
+
+.heros__at{
+   background-color: var(--font-grey);
+}
