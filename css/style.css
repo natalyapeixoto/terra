@@ -60,7 +60,6 @@ nav .header__logo_at{
   background-size: cover;
   background-position: center;
 }
-
 .header__title_at {
   color: var(--background-grey);
   margin-left: 45%;
@@ -77,31 +76,104 @@ nav .header__logo_at{
 .section__margin_at {
   margin: 0 10%;
 }
-
 .text1-brigada__at {
   font-size:26px;
   line-height: 30px;
   border-left: 1px solid #AB5056;
   padding-left: 15px;
 }
-
 .text2-col__at {
   top:-8px;
 }
 
 /*Segunda Section BRIGADA - Heróis Invisíveis*/
 
-.heros__at{
-   background-color: rgba(128, 128, 128, 0.637);
+.heroes__at{
+   background: url(../img/backgrounds/background-cinza.png);
+   font-size: 18px;
+   color: rgb(255, 255, 255);
 }
-
+.heros__title__at{
+  margin-bottom: 3%;
+}
 .heroes__img__at {
-  width: 20%;
-  margin: 5px;
+  width: 60%;
+  margin: 8px;
 }
 .btn__brigada__at {
-  background-color: rgba(224, 223, 223, 0.842);
+  background-color: rgba(247, 244, 244, 0.842);
   font-weight: bold;
   border-radius: 20px;
-  color:var(--font-grey);
+  color: var(--font-grey);
+}
+.heroes__legend__at {
+  font-size:14px;
+}
+.heroes__img-card__at {
+  text-align:center;
+}
+
+/* FIM HEROIS INVISIVEIS*/
+
+/*Section DEPOIMENTO*/ 
+
+.brigade__quote__at{
+  background: url(../img/backgrounds/fundo-depoimento-brigada.jpg);
+  color:var(--background-grey);
+  background-size: cover;
+  background-position:center;
+  line-height: 24px;
+  font-size:18px;
+}
+
+
+.brigade_depo-img__at {
+  width: 60%;
+}
+
+.brigade__thirdsection__title__at{
+ margin-left: 30%;
+ margin-right:30%;
+ text-align:center;
+}
+
+/* fim section depoimento*/
+
+
+/* 4th SECTION BRIGADE*/ 
+.brigade__fourthsection__at {
+  margin-left: 15%;
+  margin-right:15%;
+  text-align:center;
+}
+
+.btn__brigade__fourthsection__at {
+  display:block;
+  margin: 0 auto;
+  background-color:var(--brigade-red);
+  width: 25%;
+  border-radius: 20px;
+  color:var(--background-grey);
+  font-weight: bold;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+/* FIM 4th SECTION BRIGADE*/ 
+
+/* 5th SECTION BRIGADE*/ 
+.brigade__fifthsection__at {
+  margin-left: 15%;
+  margin-right:15%;
+  text-align:center;
+}
+.btn__brigade__fifthsection__at {
+  display:block;
+  margin: 0 auto;
+  background-color:var(--brigade-red);
+  width: 25%;
+  border-radius: 20px;
+  color:var(--background-grey);
+  font-weight: bold;
+  margin-top:20px;
+  margin-bottom:10px;
 }
