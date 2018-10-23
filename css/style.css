@@ -2,6 +2,7 @@
 /*GERAL*/
 body {
   box-sizing: border-box;
+  font-family: 'Open Sans';
 }
 :root{
   /*cores*/
@@ -29,6 +30,7 @@ body {
   width: 15px;
   height: 15px;
   border-radius: 100%;
+  border: 2px solid #ffffff;
 }
 
 .header__carousel_at img{
@@ -38,7 +40,49 @@ body {
 
 .text__right_at{
   text-align: right;
+  left: 42%;
 }
 .text__at {
   text-align: left;
+}
+
+.title__at {
+  font-size: 9vh;
+  font-weight: bold;
+  text-shadow: 0 0 1px grey;
+  max-width: 110vh;
+}
+
+.title2__at {
+  font-size: 9vh;
+  font-weight: bold;
+  text-shadow: 0 0 1px grey;
+  max-width: 130vh;
+}
+
+.btn__green_at {
+  background-color: #60AB3E;
+  border: none;
+  width: 130px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.btn__red_at {
+  background-color: #BD1819;
+  border: none;
+  width: 130px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.btn__yellow_at {
+  background-color: #FDD326;
+  border: none;
+  width: 130px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 30px;
 }
