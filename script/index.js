@@ -7,3 +7,4 @@ window.addEventListener("scroll", function(){
     bgNav.style.backgroundColor ="rgba(255, 255, 255, 0.466)";
   } 
 })
+

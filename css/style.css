@@ -57,7 +57,7 @@ nav .header__logo_at{
 /*header brigada*/
 .header__brigada__at {
   height: 80vh;
-  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../img/capabrigada.jpg);
+  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-brigada-de-incendio.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -90,7 +90,7 @@ nav .header__logo_at{
 /*Segunda Section BRIGADA - Heróis Invisíveis*/
 
 .heroes__at{
-   background: url(../img/backgrounds/background-cinza.png);
+   background: url(../assets/img/backgrounds/background-cinza.png);
    font-size: 18px;
    color: rgb(255, 255, 255);
 }
@@ -119,7 +119,7 @@ nav .header__logo_at{
 /*Section DEPOIMENTO*/ 
 
 .brigade__quote__at{
-  background: url(../img/backgrounds/fundo-depoimento-brigada.jpg);
+  background: url(../assets/img/backgrounds/fundo-depoimento-brigada.jpg);
   color:var(--background-grey);
   background-size: cover;
   background-position:center;
@@ -228,29 +228,32 @@ nav .header__logo_at{
 
 
 /* footer */
-.footer{
+.footer__at{
   background-color: var(--footer-grey);
   color: var(--background-grey);
+  
 }
-.footer_title{
-  font-size: 40px;
+.footer__title_at{
+  font-size: 6.5vh;
+  padding: 0px 320px 0 30px;
   font-weight: bold;
-  width: 34%;
-  margin: 0;
 }
-.footer_social-media {
-  margin-bottom: 20px;
+
+
+.footer__adress-links_at{
+  text-align:right;
 }
-.footer_img{
+.footer__social-media_at {
+
+}
+.footer__img_at{
   width: 25px;
 }
-.footer_address{
-  font-size: 13px;
-  margin: 0;
-  text-align: end;
-  margin-bottom: 20px;
+.footer__address_at{
+  text-align:right;
+  font-size:14px;
 }
-.footer_logo{
-  width: 40%;
+.footer__logo_at{
+  width: 150px;
 }
 /*FIM FOOTER*/ 
