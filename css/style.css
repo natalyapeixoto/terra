@@ -83,3 +83,14 @@ body {
 }
 /* Fim do estilo para a seção impacto da home */
 
+/* Início do estilo para a seção Brigada da home */
+.home-brigate_at{
+  background-color: var(--background-grey);
+}
+.home-brigate_img_at{
+  width: 25%;
+}
+.home-brigate_text_at{
+  font-size: 2rem;
+}
+/* Fim do estilo para a seção Brigada da home */
