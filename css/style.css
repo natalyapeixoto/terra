@@ -272,6 +272,50 @@ nav .header__logo_at{
   font-size: 14px;
 }
 
+/*SECTION DONATION CARD*/ 
+.home__donation__at {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__donation-card__at{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 470px;
+  background-color:var(--background-grey);
+  border-radius: 15px;
+}
+.home__donation-card__at h5 {
+  color: var(--primary-green);
+  font-weight: bold;
+}
+.home__donation-card__at p {
+  text-align:center;
+  font-size: 16px;
+}
+.home__donation_card__title_at{
+  text-align: center;
+  font-size: 32px;
+}
+.home__donation-card-img__at {
+  width: 80px;
+}
+.home__card-btn__at {
+  display:block;
+  margin: 0 auto;
+  background-color:var(--primary-green);
+  width: 200px;
+  border-radius: 20px;
+  color:var(--background-grey);
+  font-weight: bold;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+/*FIM SECTION DONATION CARD*/
+
+
 /* footer */
 .footer{
   background-color: var(--footer-grey);
