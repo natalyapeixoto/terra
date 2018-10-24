@@ -94,3 +94,32 @@ body {
   font-size: 2rem;
 }
 /* Fim do estilo para a seção Brigada da home */
+
+/*Segunda Section BRIGADA - Heróis Invisíveis*/
+
+.heroes__at{
+  background: url(../assets/img/backgrounds/background-cinza.png);
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+.heros__title__at{
+ margin-bottom: 3%;
+}
+.heroes__img__at {
+ width: 60%;
+ margin: 8px;
+}
+.btn__brigada__at {
+ background-color: rgba(247, 244, 244, 0.842);
+ font-weight: bold;
+ border-radius: 20px;
+ color: var(--font-grey);
+}
+.heroes__legend__at {
+ font-size:14px;
+}
+.heroes__img-card__at {
+ text-align:center;
+}
+
+/* FIM HEROIS INVISIVEIS*/
