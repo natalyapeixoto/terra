@@ -25,7 +25,7 @@ body {
 
 /*fim GERAL*/
 
-/* Início do estilo para a seção o nosso diferencial */
+/* Início do estilo para a seção o nosso diferencial da home */
 .home-differential__title_at, .home-impact_title_at{
   font-weight: bold;
   text-align: center;
@@ -36,9 +36,9 @@ body {
   border-left: 2px solid var(--primary-green);
   padding-left: 30px;
 }
-/* Fim do estilo para a seção o nosso diferencial */
+/* Fim do estilo para a seção o nosso diferencial da home*/
 
-/* Início do estilo para a seção impacto */
+/* Início do estilo para a seção impacto da home */
 .home-impact_card_at{
   background-color: var(--primary-green);
   border-radius: calc(1rem - 1px);
@@ -81,5 +81,5 @@ body {
   padding-bottom: 0;
   border: none;
 }
+/* Fim do estilo para a seção impacto da home */
 
-/* Fim do estilo para a seção impacto */
