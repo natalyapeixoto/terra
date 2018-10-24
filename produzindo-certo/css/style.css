@@ -82,6 +82,8 @@ nav .header__logo_at{
 .produto__titulo__empresa_at {
     text-transform: uppercase;
     font-weight: bold;
+    color: var(--primary-green);
+    margin-left: 80px;
     color: #f58634;
 }
 
@@ -89,7 +91,9 @@ nav .header__logo_at{
 .produto__titulo__consumidor_at {
     text-transform: uppercase;
     font-weight: bold;
-    color: #f58634;
+    color: var(--primary-green);
+    margin-left: 65px;
+    color: #007cc2;
 }
 
 
@@ -109,58 +113,57 @@ nav .header__logo_at{
 }
 
 .produto__margin__green_at {
-    border-left: 3px solid var(--primary-green);
-    /* position: relative; */   
+    border-left: 3px solid var(--primary-green); 
 }
-
-/* .produto__margin__green_at:before {
-    content: "";
-    position: absolute;
-    bottom: 20px;
-    left: -15px;
-    height: 185px;
-    border-left: 3px solid var(--primary-green);
-} */
-
 
 /*formatacao dos textos 'plataforma', 'infografico' e 'produtor rural'*/
-.produto__texto_at, .produto__plataforma__texto_at, .produto__rural__texto_at {
-    line-height: 35px;
+.produto__texto_at, .produto__plataforma__texto_at, .produto__rural__texto_at, .produto__rural__text {
+    line-height: 30px;
 }
 
 
-/*--- SEÇÃO INFOGRAFICO ---*/
+/*--- SEÇÃO PRODUTOR RURAL ----*/
 
 /*estilo do nome da legenda da imagem 'Produtor rural'*/
 .produto__titulo__produtor-rural_at {
     text-transform: uppercase;
     font-weight: bold;
     color: var(--primary-green);
+    margin-left: 50px;
 }   
 
-/*espaçamentos e centralização - seção grafico e produtor rural */
+/*espaçamentos e centralização - seção grafico, produtor rural, empresa */
 .produto__centralizar_at {
     align-self: center;
 }
 
+.produto__centralizar__text_at, .empresa__img, .consumidor__logos {
+    text-align: center;
+}
+
+.produto__alinha__flecha_at {
+    text-align: center;
+}
+.produto__alinha__flecha_at:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50)
+}
+
 /*cor do fundo - seção grafico*/
-.produto__plataforma__bgcolor_at {
+.produto__plataforma__bgcolor_at, .produto__empresa__infos_at {
     background-color: var(--background-grey);
 }
 
-/*SEÇÃO PRODUTOR RURAL*/
 
-.produto__titulo__produtor-rural_at {
-    margin-left: 50px;
+/*Seção Passo-a-passo - SUMIR FLECHAS - display */
+
+@media (max-width: 768px) {
+    .produto__alinha__flecha_at {
+        display: none;
+    }
 }
 
-/*call to action - botões produtor rural*/
-
-
-
-
-
-/*APLICATIVO*/
+/* SEÇÃO APLICATIVO*/
 
 .produto__app__texto_at {
     text-align: center;
@@ -174,6 +177,16 @@ nav .header__logo_at{
     display: block;
     margin: 0 auto;
 
+}
+
+.img-fluid.produto__img__width_at {
+    max-width: 90%;
+}
+
+/* CALL TO ACTION - FINAL */
+
+.produto__final__texto_at {
+    text-align: center;
 }
 
 /*--- FOOTER ---*/
