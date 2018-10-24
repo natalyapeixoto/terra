@@ -1,0 +1,199 @@
+:root {
+--footer-grey: #3C3C3B;
+--font-grey: #575756;
+--background-grey: #F6F6F6;
+--partners-yellow: #FDD326;
+--primary-green: #60AB3E;
+--brigade-red: #BD1819;
+}
+
+.span__amarelo {
+color: var(--partners-yellow);
+}
+.span__cinza{
+color: var(--footer-grey);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--font-grey);
+}
+
+.text__right_at{
+  text-align: right;
+  left: 42%;
+}
+
+.text__at {
+  text-align: left;
+}
+
+.title__at {
+  font-weight: bold;
+  text-shadow: 0 0 1px grey;
+  max-width: 110vh;
+}
+
+.title2__at {
+  font-size: 9vh;
+  font-weight: bold;
+  text-shadow: 0 0 1px grey;
+  max-width: 130vh;
+}
+
+.btn__yellow_at {
+  background-color: var(--partners-yellow);  
+  border: none;
+  max-width: 200px;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/*NAV BAR*/
+nav .header__logo_at{
+    max-width: 80px;
+  }
+  .nav__bg__at {
+    background-color:rgba(255, 255, 255, 0.466);
+    position:fixed;
+    width: 100vw;
+    z-index: 99;
+    transition: all .5s;
+  }
+  .nav__logo_at {
+    width: 170px;
+    height: 45px;
+  }
+  .nav__at {
+    margin-left: 40%;
+    font-weight: bold;
+  }
+
+  /*header parceiros*/
+  .header__parceiros__at {
+    height: 80vh;
+    background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-parceiros.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .header__title_at {
+    color: var(--background-grey);
+    margin-left: 45%;
+    font-weight: bold;
+  }
+  
+/* section faca parte */
+
+.parceiros__sessao_apresentacao_at{
+  margin:0 auto;
+  padding:50px;
+}
+
+.parceiros__title {
+  font-size: 5.5vh;
+}
+
+.parceiros__subtitle {
+  margin-bottom: 2.5vh;
+}
+
+.parceiros__logos{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  align-items: center;
+  justify-items: center;
+  min-height: 500px;
+}
+
+.parceiros__logos img{
+  /* grid-area: 6; */
+  filter: grayscale(1);
+  max-width: 60px;
+  max-height: 50px;
+}
+
+.parceiros__logos img:hover{
+  /* grid-area: 6; */
+  filter: grayscale(0);
+  /* max-width: 70px;
+  max-height: 50px; */
+}
+
+/* section depoimento */
+.parceiros__depoimento{
+  background-image: url("../assets/img/backgrounds/fundo-depoimento-parceiros.jpg");
+  padding: 50px;
+  /* margin: 0 auto; */
+}
+
+.parceiros__depoimento_imagem{
+  width: 130px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.parceiros__depoimento_texto{
+  text-align: center;
+  color: #fff;
+}
+
+.parceiros__quote {
+  font-style: italic;
+  margin: 0 auto;
+  padding: 10px 0 ;
+  font-size: 0.9rem;
+}
+
+parceiros__descricao{
+  font-style: bold;  
+  font-size: 0.9rem;
+
+}
+
+/* secao transformacao */
+
+.transformacao{
+  padding: 50px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.parceiros__title__transformacao {
+  font-weight: bold;
+  text-shadow: 0 0 1px grey;
+}
+
+/* footer */
+.footer__at{
+  background-color: var(--footer-grey);
+  color: var(--background-grey);
+  
+}
+.footer__title_at{
+  font-size: 6.5vh;
+  padding: 0px 320px 0 30px;
+  font-weight: bold;
+}
+
+.footer__adress-links_at{
+  text-align:right;
+}
+.footer__social-media_at {
+
+}
+.footer__img_at{
+  width: 25px;
+}
+.footer__address_at{
+  text-align:right;
+  font-size:14px;
+}
+.footer__logo_at{
+  width: 150px;
+}
+/*FIM FOOTER*/ 
+  
