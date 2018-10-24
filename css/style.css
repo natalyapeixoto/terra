@@ -3,7 +3,6 @@
 body {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  
 }
 :root{
   /*cores*/
@@ -23,14 +22,12 @@ a:hover {
   color:inherit;
   text-decoration:none;
 }
-
 .span__vermelho {
   color: var(--brigade-red);
 }
 .span__cinza{
   color: var(--footer-grey);
 }
-
 /*fim GERAL*/
 
 /*NAV BAR*/
@@ -54,6 +51,326 @@ nav .header__logo_at{
 }
 /*FIM NAV BAR*/
 
+/**HOMEEE 1 *****************************************************/
+
+/*HEADER HOME*/
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 2px solid #ffffff;
+}
+.home__header__carousel_at img{
+  object-fit: cover;
+  height: 100vh;
+}
+.home__text_at {
+  text-align: left;
+}
+.home__title_at {
+  font-size: 9vh;
+  font-weight: bold;
+  text-shadow: 0 0 1px var(--footer-grey);
+  max-width: 110vh;
+}
+.home__btn__green_at {
+  background-color: var(--primary-green);
+  border: none;
+  width: 130px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.home__title2_at {
+  font-size: 9vh;
+  font-weight: bold;
+  text-shadow: 0 0 1px var(--footer-grey);
+  max-width: 130vh;
+}
+.home__btn__red_at {
+  background-color: var(--brigade-red);
+  border: none;
+  width: 130px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.home__btn__yellow_at {
+  background-color: var(--partners-yellow);
+  border: none;
+  width: 130px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+/*fim HEADER HOME */
+
+/*MAIN HOME*/
+.home__row__margin_at {
+  margin: 50px;
+}
+.home__col_at {
+  padding: 10px 0;
+  margin: 20px 0;
+}
+.home__border-left_at {
+  border-left: 2px solid var(--primary-green);
+}
+.home__body-left_at {
+  padding: 0 0 0 20px;
+}
+.home__card__title_at {
+  font-size: 40px;
+}
+.home__card__img-logo_at{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__card__img-logo_at img {
+  width: 26vh;
+  height: 30vh;
+}
+.home__card__img_at{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__card__img_at img {
+  width: 30vh;
+  height: 30vh;
+}
+.home__border-right_at {
+  border-right: 2px solid var(--primary-green);
+}
+.home__body-right_at {
+  padding: 0 20px 0 0;
+}
+.home__card__title2_at {
+  font-size: 40px;
+  text-align: right;
+}
+.home__card__text2_at {
+  text-align: right;
+}
+/*IMPACT*/
+.home__impact_at {
+  background-color: var(--background-grey)
+}
+.home__impact_at p {
+  font-size: 20px;
+  padding-top: 60px;
+}
+.home__impact_at img {
+  width: 80vh;
+  height: 60vh;
+  object-fit: fill;
+}
+.home__impact__row_at {
+  padding: 0 50px 0 70px;
+}
+.home__impact__btn__green_at {
+  background-color: var(--primary-green);
+  border: none;
+  width: 180px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+.home__impact__img_at {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*DEPOSITIONS*/
+.home__depositions_at {
+  background-image: url(../assets/img/backgrounds/fundo-depoimentos.jpg);
+  height: 50vh;
+  padding: 8vh;
+}
+.home__depositions_at img{
+  width: 35vh;
+  height: 35vh; 
+}
+.home__depositions__carousel_at {
+  margin-left: 70px;
+}
+.home__depositions__text_at{
+  margin-left: 100px;
+}
+.home__depositions__text_at p{
+  text-align: left;
+  font-size: 15px;
+}
+.home__depositions__text_at span{
+  text-align: left;
+  font-style: italic;
+  font-size: 14px;
+}
+.home__depositions__text2_at{
+  margin-left: 100px;
+}
+.home__depositions__text2_at p{
+  text-align: left;
+  font-size: 15px;
+}
+.home__depositions__text2_at span{
+  text-align: left;
+  font-style: italic;
+  font-size: 14px;
+}
+@media (max-width: 768px){
+  .home__depositions_at {
+    display:none;
+  }
+}
+/* footer */
+.footer__at{
+  background-color: var(--footer-grey);
+  color: var(--background-grey);
+}
+.footer__title_at{
+  font-size: 6.5vh;
+  padding: 0px 320px 0 30px;
+  font-weight: bold;
+}
+.footer__adress-links_at{
+  text-align:right;
+}
+.footer__img_at{
+  width: 25px;
+}
+.footer__address_at{
+  text-align:right;
+  font-size:14px;
+}
+.footer__logo_at{
+  width: 150px;
+}
+/*FIM FOOTER*/ 
+
+/* FIM HOME 1****************************************************/ 
+
+/* COMEÇO PAGINA PARCEIROS **************************************/
+/* section faca parte */
+/*geral parceiros*/
+.text__right_at{
+  text-align: right;
+  left: 42%;
+}
+.text__at {
+  text-align: left;
+}
+.title__at {
+  font-weight: bold;
+  text-shadow: 0 0 1px grey;
+  max-width: 110vh;
+}
+.title2__at {
+  font-size: 9vh;
+  font-weight: bold;
+  text-shadow: 0 0 1px grey;
+  max-width: 130vh;
+}
+.btn__yellow_at {
+  background-color: var(--partners-yellow);  
+  border: none;
+  max-width: 200px;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+ /*header parceiros*/
+ .header__parceiros__at {
+  height: 80vh;
+  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-parceiros.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__title_at {
+  color: var(--background-grey);
+  margin-left: 45%;
+  font-weight: bold;
+}
+/* fim header parceiros */ 
+.parceiros__sessao_apresentacao_at{
+  margin:0 auto;
+  padding:50px;
+}
+.parceiros__title {
+  font-size: 5.5vh;
+}
+.parceiros__subtitle {
+  margin-bottom: 2.5vh;
+}
+.parceiros__logos{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  align-items: center;
+  justify-items: center;
+  min-height: 500px;
+}
+.parceiros__logos img{
+  /* grid-area: 6; */
+  filter: grayscale(1);
+  max-width: 60px;
+  max-height: 50px;
+}
+.parceiros__logos img:hover{
+  /* grid-area: 6; */
+  filter: grayscale(0);
+  /* max-width: 70px;
+  max-height: 50px; */
+}
+
+/* section depoimento */
+.parceiros__depoimento{
+  background-image: url("../assets/img/backgrounds/fundo-depoimento-parceiros.jpg");
+  padding: 50px;
+  /* margin: 0 auto; */
+}
+.parceiros__depoimento_imagem{
+  width: 130px;
+  margin-bottom: 20px;
+  align-self: center;
+}
+.parceiros__depoimento_texto{
+  text-align: center;
+  color: #fff;
+}
+.parceiros__quote {
+  font-style: italic;
+  margin: 0 auto;
+  padding: 10px 0 ;
+  font-size: 0.9rem;
+}
+.parceiros__descricao{
+  font-style: bold;  
+  font-size: 0.9rem;
+
+}
+
+/* secao transformacao */
+.transformacao{
+  padding: 50px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.parceiros__title__transformacao {
+  font-weight: bold;
+  text-shadow: 0 0 1px grey;
+}
+/* FIM PÁGINA PARCEIROS ******************************************/
+
+
+/* COMEÇO PAGINA BRIGADA *****************************************/
 /*header brigada*/
 .header__brigada__at {
   height: 80vh;
@@ -88,7 +405,6 @@ nav .header__logo_at{
 }
 
 /*Segunda Section BRIGADA - Heróis Invisíveis*/
-
 .heroes__at{
    background: url(../assets/img/backgrounds/background-cinza.png);
    font-size: 18px;
@@ -113,11 +429,9 @@ nav .header__logo_at{
 .heroes__img-card__at {
   text-align:center;
 }
-
 /* FIM HEROIS INVISIVEIS*/
 
 /*Section DEPOIMENTO*/ 
-
 .brigade__quote__at{
   background: url(../assets/img/backgrounds/fundo-depoimento-brigada.jpg);
   color:var(--background-grey);
@@ -126,20 +440,15 @@ nav .header__logo_at{
   line-height: 24px;
   font-size:18px;
 }
-
-
 .brigade_depo-img__at {
   width: 60%;
 }
-
 .brigade__fourthsection__title__at{
  margin-left: 30%;
  margin-right:30%;
  text-align:center;
 }
-
 /* fim section depoimento*/
-
 
 /* 4th SECTION BRIGADE*/ 
 .brigade__fourthsection__at  {
@@ -147,7 +456,6 @@ nav .header__logo_at{
   margin-right:10%;
   text-align:center;
 }
-
 .btn__brigade__fourthsection__at {
   display:block;
   margin: 0 auto;
@@ -212,7 +520,6 @@ nav .header__logo_at{
 .brigade__donation-card-img__at {
   width: 80px;
 }
-
 .brigade__card-btn__at {
   display:block;
   margin: 0 auto;
@@ -225,35 +532,8 @@ nav .header__logo_at{
   margin-bottom:10px;
 }
 /*FIM SECTION DONATION CARD*/
+/*FIM PAGINA BRIGADA *******************************************/ 
 
 
-/* footer */
-.footer__at{
-  background-color: var(--footer-grey);
-  color: var(--background-grey);
-  
-}
-.footer__title_at{
-  font-size: 6.5vh;
-  padding: 0px 320px 0 30px;
-  font-weight: bold;
-}
 
 
-.footer__adress-links_at{
-  text-align:right;
-}
-.footer__social-media_at {
-
-}
-.footer__img_at{
-  width: 25px;
-}
-.footer__address_at{
-  text-align:right;
-  font-size:14px;
-}
-.footer__logo_at{
-  width: 150px;
-}
-/*FIM FOOTER*/ 
