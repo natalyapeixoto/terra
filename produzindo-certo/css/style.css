@@ -94,12 +94,13 @@ nav .header__logo_at{
 
 
 /*estilo dos botoes*/
-.btn__green_at {
+.produto__btn__green_at {
     background-color: var(--primary-green);
     border: none;
-    width: 130px;
-    border-radius: 20px;
-    font-weight: bold; 
+    width: 260px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 8px 0;
 }
 
 /*cor dos textos - span*/
@@ -157,6 +158,23 @@ nav .header__logo_at{
 
 
 
+
+
+/*APLICATIVO*/
+
+.produto__app__texto_at {
+    text-align: center;
+}
+
+.produto__app__margin_at {
+    margin: 30px;
+}
+
+.produto__app__centro_at {
+    display: block;
+    margin: 0 auto;
+
+}
 
 /*--- FOOTER ---*/
 
