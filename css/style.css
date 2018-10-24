@@ -26,48 +26,60 @@ body {
 /*fim GERAL*/
 
 /* Início do estilo para a seção o nosso diferencial */
-.home-differential_title, .home-impact_title{
+.home-differential__title_at, .home-impact_title_at{
   font-weight: bold;
   text-align: center;
   margin-bottom: 30px;
   font-size: 30px;
 }
-.home-differential_text{
+.home-differential_text_at{
   border-left: 2px solid var(--primary-green);
   padding-left: 30px;
 }
 /* Fim do estilo para a seção o nosso diferencial */
 
 /* Início do estilo para a seção impacto */
-.home-impact_card{
+.home-impact_card_at{
   background-color: var(--primary-green);
   border-radius: calc(1rem - 1px);
   width: 18rem;
+  height: 380px;
 }
-.home-impact_img{
+.home-impact_card_at:hover{
+  background-color: rgb(12, 75, 12);
+}
+.home-impact_img_at{
   width: 30%;
-  height: 60px;
+  height: 85px;
   margin-top: 40px;
 }
-.home-impact_text{
+.home-impact_text_at{
   color: var(--background-grey);
   font-weight: 500;
   padding: 0 20px;
   text-align: center;
 }
-.strong__branco{
+.home-impact_text__highlight_at{
   font-weight: bold;
   font-size: 40px;
 }
-.home-impac_btn{
+.home-impact_btn_at{
   border: none;
   background: white;
 }
-.home-impac_btn:focus{
+.home-impact_btn_at:focus{
   outline: none;
 }
-.home-impact_modal-contect{
+.home-impact_modal-contect_at{
   background-color: var(--background-grey);
+}
+.home-impact_modal-text_at{
+  margin-bottom: 0;
+  
+}
+.home-impact_modal-header_at{
+  padding-bottom: 0;
+  border: none;
 }
 
 /* Fim do estilo para a seção impacto */
