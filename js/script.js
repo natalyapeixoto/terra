@@ -1,6 +1,6 @@
-$('.carousel').carousel({
-    interval: 2500
-  })
+// $('.carousel').carousel({
+//     interval: 2500
+//   })
 
 const bgNav =  document.querySelector(".nav__bg__at");
 

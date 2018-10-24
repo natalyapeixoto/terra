@@ -226,13 +226,13 @@ nav .header__logo_at{
 /*DEPOSITIONS*/
 .home__depositions_at {
   background-image: url(../assets/img/backgrounds/fundo-depoimentos.jpg);
-  height: 50vh;
-  padding: 8vh;
+  height: 60vh;
 }
 
 .home__depositions_at img{
-  width: 35vh;
-  height: 35vh; 
+  width: 25vh;
+  height: 25vh; 
+  margin: 70px 0;
 }
 
 .home__depositions__carousel_at {
@@ -240,12 +240,14 @@ nav .header__logo_at{
 }
 
 .home__depositions__text_at{
-  margin-left: 100px;
+  margin-left: 80px;
+  padding-top: 0;
+  top: 32%;
 }
 
 .home__depositions__text_at p{
   text-align: left;
-  font-size: 15px;
+  font-size: 15px; 
 }
 
 .home__depositions__text_at span{
@@ -255,7 +257,8 @@ nav .header__logo_at{
 }
 
 .home__depositions__text2_at{
-  margin-left: 100px;
+  margin-left: 80px;
+  top: 20%;
 }
 
 .home__depositions__text2_at p{
@@ -296,4 +299,8 @@ nav .header__logo_at{
   width: 40%;
 }
 
-
+@media (max-width: 768px) {
+  .home__depositions_at {
+    display: none;
+  }
+}
