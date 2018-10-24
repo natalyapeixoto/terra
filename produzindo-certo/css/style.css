@@ -1,3 +1,5 @@
+/*--- VARIAVEIS ---*/
+
 :root{
   /*cores*/
 --footer-grey: #3C3C3B;
@@ -9,7 +11,22 @@
 /*fim cores*/ 
 }
 
-/*GERAL*/
+.span__vermelho {
+    color: var(--brigade-red);
+}
+.span__cinza{
+    color: var(--footer-grey);
+}
+  
+.span__amarelo {
+    color: var(--partners-yellow);
+}
+  
+.span__verde {
+    color: var(--primary-green);
+}
+
+/*--- GERAL ---*/
 
 body {
     box-sizing: border-box;
@@ -17,7 +34,7 @@ body {
     color: var(--font-grey);
 }
 
-/* NAVBAR */
+/*--- NAVBAR ---*/
 
 nav .header__logo_at{
     max-width: 80px;
@@ -48,12 +65,12 @@ nav .header__logo_at{
     background-position: center;
 }
 
-/*espaçamento do titulo do <h1> */
+/*espaçamento do header <h1> */
 .produto__header_at {
     margin: 0 100px;
 }
 
-/*cor e estilo do titulo do <h1> */
+/*cor e estilo do header <h1> */
 .produto__header__titulo_at {
     color: var(--background-grey);
     margin: 0 auto;
@@ -61,26 +78,22 @@ nav .header__logo_at{
     letter-spacing: 2px;
 }
 
-.produto__titulo__produtor-rural_at {
-    text-transform: uppercase;
-    font-weight: bold;
-    color: var(--primary-green);
-}
-
+/*estilo do nome da legenda da imagem 'Empresa'*/
 .produto__titulo__empresa_at {
     text-transform: uppercase;
     font-weight: bold;
     color: #f58634;
 }
 
-.produto__titulo__empresa_at {
+/*estilo do nome da legenda da imagem 'Consumidor'*/
+.produto__titulo__consumidor_at {
     text-transform: uppercase;
     font-weight: bold;
     color: #f58634;
 }
 
 
-/*botao*/
+/*estilo dos botoes*/
 .btn__green_at {
     background-color: var(--primary-green);
     border: none;
@@ -88,6 +101,61 @@ nav .header__logo_at{
     border-radius: 20px;
     font-weight: bold; 
 }
+
+/*cor dos textos - span*/
+.span__green_at {
+    color: var(--primary-green);
+}
+
+.produto__margin__green_at {
+    border-left: 3px solid var(--primary-green);
+    /* position: relative; */   
+}
+
+/* .produto__margin__green_at:before {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    left: -15px;
+    height: 185px;
+    border-left: 3px solid var(--primary-green);
+} */
+
+
+/*formatacao dos textos 'plataforma', 'infografico' e 'produtor rural'*/
+.produto__texto_at, .produto__plataforma__texto_at, .produto__rural__texto_at {
+    line-height: 35px;
+}
+
+
+/*--- SEÇÃO INFOGRAFICO ---*/
+
+/*estilo do nome da legenda da imagem 'Produtor rural'*/
+.produto__titulo__produtor-rural_at {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--primary-green);
+}   
+
+/*espaçamentos e centralização - seção grafico e produtor rural */
+.produto__centralizar_at {
+    align-self: center;
+}
+
+/*cor do fundo - seção grafico*/
+.produto__plataforma__bgcolor_at {
+    background-color: var(--background-grey);
+}
+
+/*SEÇÃO PRODUTOR RURAL*/
+
+.produto__titulo__produtor-rural_at {
+    margin-left: 50px;
+}
+
+/*call to action - botões produtor rural*/
+
+
 
 
 /*--- FOOTER ---*/
