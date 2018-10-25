@@ -36,11 +36,19 @@ a:hover {
   color: var(--primary-green);
 }
 
-
 /*header sections brigade, produzindo certo e parceiros*/
+.produzindo__banner__at{
+  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/producao/capa-produtor.jpg);
+}
+.parceiros__banner__at{
+  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-parceiros.jpg);
+}
+.brigade__banner__at{
+  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-brigada-de-incendio.jpg);
+}
 .header__sections__at {
   height: 80vh;
-  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-brigada-de-incendio.jpg);
+  
   background-size: cover;
   background-position: center;
 }
@@ -183,9 +191,19 @@ nav .header__logo_at{
   padding-top: 60px;
 }
 .home__impact_at img {
-  width: 80vh;
+  width: 78vh;
   height: 60vh;
   object-fit: fill;
+}
+.home__impact_at img:hover {
+  transform: scale(1.9, 1.8);
+  transform-origin: right;
+  z-index:99;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: all 0.8s;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 4px #c3c3c3);
 }
 .home__impact__row_at {
   padding: 0 50px 0 70px;
@@ -277,8 +295,8 @@ nav .header__logo_at{
   cursor:pointer;
 }
 .home-impact_img_at{
-  width: 30%;
-  height: 85px;
+  width: auto;
+  height: 75px;
   margin-top: 40px;
 }
 .home-impact_text_at{
@@ -365,10 +383,12 @@ nav .header__logo_at{
   display:flex;
   justify-content: center;
   align-items: center;
-  width: 360px;
-  height: 470px;
   background-color:var(--background-grey);
   border-radius: 15px;
+  height: 450px;
+}
+.card-body .card__font-size__at{
+  font-size: 14px;
 }
 .home__donation-card__at h5 {
   color: var(--primary-green);
@@ -683,7 +703,9 @@ nav .header__logo_at{
   font-size:18px;
 }
 .brigade_depo-img__at {
-  width: 60%;
+  width: 45%;
+  display:block;
+  margin: 0 auto;
 }
 .brigade__fourthsection__title__at{
  margin-left: 30%;
