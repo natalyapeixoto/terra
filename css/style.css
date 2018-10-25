@@ -410,10 +410,10 @@ nav .header__logo_at{
   text-align: center;
   font-size: 32px;
 }
+
 .home__donation-card-img__at {
   width: auto;
   height: 80px;
-  
 }
 .home__card-btn__at {
   display:block;
@@ -645,6 +645,18 @@ nav .header__logo_at{
 .parceiros__title__transformacao {
   font-weight: bold;
   text-shadow: 0 0 1px grey;
+}
+
+@media (max-width: 576px){
+  .parceiros__logos{
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    align-items: center;
+    justify-items: center;   
+    min-height: 800px;
+    margin: 30px 0; 
+  }
 }
 /* FIM PÁGINA PARCEIROS ******************************************/
 
