@@ -1,4 +1,5 @@
 const bgNav =  document.querySelector(".nav__bg__at");
+
 window.addEventListener("scroll", function(){
   if (pageYOffset >= 400) {
     bgNav.style.backgroundColor ="white";

@@ -19,14 +19,35 @@ a{
   color:inherit;
 }
 a:hover {
-  color:inherit;
+  opacity: .7;
+  color: white;
   text-decoration:none;
 }
-.span__vermelho {
+.text__red {
   color: var(--brigade-red);
 }
-.span__cinza{
-  color: var(--footer-grey);
+.text__grey{
+   color: var(--footer-grey);
+}
+.text__yellow{
+  color: var(--partners-yellow);
+}
+.text__green {
+  color: var(--primary-green);
+}
+
+
+/*header sections brigade, produzindo certo e parceiros*/
+.header__sections__at {
+  height: 80vh;
+  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-brigada-de-incendio.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header__title-sections_at {
+  color: var(--background-grey);
+  margin-left: 45%;
+  font-weight: bold;
 }
 /*fim GERAL*/
 
@@ -187,22 +208,24 @@ nav .header__logo_at{
 /*DEPOSITIONS*/
 .home__depositions_at {
   background-image: url(../assets/img/backgrounds/fundo-depoimentos.jpg);
-  height: 50vh;
-  padding: 8vh;
+  height: 60vh;
 }
 .home__depositions_at img{
-  width: 35vh;
-  height: 35vh; 
+  width: 25vh;
+  height: 25vh; 
+  margin: 70px 0;
 }
 .home__depositions__carousel_at {
   margin-left: 70px;
 }
 .home__depositions__text_at{
-  margin-left: 100px;
+  margin-left: 80px;
+  padding-top: 0;
+  top: 32%;
 }
 .home__depositions__text_at p{
   text-align: left;
-  font-size: 15px;
+  font-size: 15px; 
 }
 .home__depositions__text_at span{
   text-align: left;
@@ -210,7 +233,8 @@ nav .header__logo_at{
   font-size: 14px;
 }
 .home__depositions__text2_at{
-  margin-left: 100px;
+  margin-left: 80px;
+  top: 10%;
 }
 .home__depositions__text2_at p{
   text-align: left;
@@ -221,11 +245,160 @@ nav .header__logo_at{
   font-style: italic;
   font-size: 14px;
 }
+
 @media (max-width: 768px){
   .home__depositions_at {
     display:none;
   }
 }
+/**FIM DEPOIMENTOS**/ 
+/* Início do estilo para a seção o nosso diferencial da home */
+.home-differential__title_at, .home-impact_title_at{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.home-differential_text_at{
+  border-left: 2px solid var(--primary-green);
+  padding-left: 30px;
+}
+/* Fim do estilo para a seção o nosso diferencial da home*/
+
+/* Início do estilo para a seção impacto da home */
+.home-impact_card_at{
+  background-color: var(--primary-green);
+  border-radius: calc(1rem - 1px);
+  width: 18rem;
+  height: 380px;
+}
+.home-impact_card_at:hover{
+  background-color: rgb(12, 75, 12);
+  cursor:pointer;
+}
+.home-impact_img_at{
+  width: 30%;
+  height: 85px;
+  margin-top: 40px;
+}
+.home-impact_text_at{
+  color: var(--background-grey);
+  font-weight: 500;
+  padding: 0 20px;
+  text-align: center;
+}
+.home-impact_text__highlight_at{
+  font-weight: bold;
+  font-size: 40px;
+}
+.home-impact_btn_at{
+  border: none;
+  background: white;
+}
+.home-impact_btn_at:focus{
+  outline: none;
+}
+.home-impact_modal-contect_at{
+  background-color: var(--background-grey);
+}
+.home-impact_modal-text_at{
+  margin-bottom: 0;
+}
+.home-impact_modal-header_at{
+  padding-bottom: 0;
+  border: none;
+}
+/* Fim do estilo para a seção impacto da home */
+
+/* Início do estilo para a seção Brigada da home */
+.home-brigate_at{
+  background-color: var(--background-grey);
+}
+.home-brigate_img_at{
+  width: 25%;
+}
+.home-brigate_text_at{
+  font-size: 2rem;
+}
+/* Fim do estilo para a seção Brigada da home */
+
+/*Segunda Section BRIGADA - Heróis Invisíveis*/
+.heroes__at{
+  background: url(../assets/img/backgrounds/background-cinza.png);
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+.heros__title__at{
+ margin-bottom: 3%;
+}
+.heroes__img__at {
+ width: 60%;
+ margin: 8px;
+}
+.btn__brigada__at {
+ background-color: rgba(247, 244, 244, 0.842);
+ font-weight: bold;
+ border-radius: 20px;
+ color: var(--font-grey);
+}
+.heroes__legend__at {
+ font-size:14px;
+}
+.heroes__img-card__at {
+ text-align:center;
+}
+/* FIM HEROIS INVISIVEIS*/
+
+/*Inicio seção - Nosso time*/
+.team__legend__at{
+  font-size: .65rem;
+}
+/*Fim seção - Nosso time*/
+
+/*SECTION DONATION CARD*/ 
+.home__donation__at {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__donation-card__at{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 470px;
+  background-color:var(--background-grey);
+  border-radius: 15px;
+}
+.home__donation-card__at h5 {
+  color: var(--primary-green);
+  font-weight: bold;
+}
+.home__donation-card__at p {
+  text-align:center;
+  font-size: 16px;
+}
+.home__donation_card__title_at{
+  text-align: center;
+  font-size: 32px;
+}
+.home__donation-card-img__at {
+  width: auto;
+  height: 80px;
+  
+}
+.home__card-btn__at {
+  display:block;
+  margin: 0 auto;
+  background-color:var(--primary-green);
+  width: 200px;
+  border-radius: 20px;
+  color:var(--background-grey);
+  font-weight: bold;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+/*FIM SECTION DONATION CARD*/
 /* footer */
 .footer__at{
   background-color: var(--footer-grey);
@@ -253,6 +426,97 @@ nav .header__logo_at{
 
 /* FIM HOME 1****************************************************/ 
 
+/* COMECO PRODUZINDO CERTO **************************************/
+/*--- BANNER PRINCIPAL > PRODUZINDO CERTO ---*/
+
+/*estilo do nome da legenda da imagem 'Empresa'*/
+.produto__titulo__empresa_at {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--primary-green);
+  margin-left: 80px;
+  color: #f58634;
+}
+/*estilo do nome da legenda da imagem 'Consumidor'*/
+.produto__titulo__consumidor_at {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--primary-green);
+  margin-left: 65px;
+  color: #007cc2;
+}
+/*estilo dos botoes*/
+.produto__btn__green_at {
+  background-color: var(--primary-green);
+  border: none;
+  width: 260px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+/*cor dos textos - span*/
+.span__green_at {
+  color: var(--primary-green);
+}
+.produto__margin__green_at {
+  border-left: 3px solid var(--primary-green); 
+}
+/*formatacao dos textos 'plataforma', 'infografico' e 'produtor rural'*/
+.produto__texto_at, .produto__plataforma__texto_at, .produto__rural__texto_at, .produto__rural__text {
+  line-height: 30px;
+}
+
+/*--- SEÇÃO PRODUTOR RURAL ----*/
+/*estilo do nome da legenda da imagem 'Produtor rural'*/
+.produto__titulo__produtor-rural_at {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--primary-green);
+  margin-left: 50px;
+}   
+/*espaçamentos e centralização - seção grafico, produtor rural, empresa */
+.produto__centralizar_at {
+  align-self: center;
+}
+.produto__centralizar__text_at, .empresa__img, .consumidor__logos {
+  text-align: center;
+}
+.produto__alinha__flecha_at {
+  text-align: center;
+}
+.produto__alinha__flecha_at:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50)
+}
+/*cor do fundo - seção grafico*/
+.produto__plataforma__bgcolor_at, .produto__empresa__infos_at {
+  background-color: var(--background-grey);
+}
+/*Seção Passo-a-passo - SUMIR FLECHAS - display */
+@media (max-width: 768px) {
+  .produto__alinha__flecha_at {
+      display: none;
+  }
+}
+/* SEÇÃO APLICATIVO*/
+.produto__app__texto_at {
+  text-align: center;
+}
+.produto__app__margin_at {
+  margin: 30px;
+}
+.produto__app__centro_at {
+  display: block;
+  margin: 0 auto;
+}
+.img-fluid.produto__img__width_at {
+  max-width: 90%;
+}
+/* CALL TO ACTION - FINAL */
+.produto__final__texto_at {
+  text-align: center;
+}
+/*FIM PAGINA PRODUZINDO CERTO ***********************************/ 
 /* COMEÇO PAGINA PARCEIROS **************************************/
 /* section faca parte */
 /*geral parceiros*/
@@ -285,18 +549,7 @@ nav .header__logo_at{
 }
 
  /*header parceiros*/
- .header__parceiros__at {
-  height: 80vh;
-  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-parceiros.jpg);
-  background-size: cover;
-  background-position: center;
-}
 
-.header__title_at {
-  color: var(--background-grey);
-  margin-left: 45%;
-  font-weight: bold;
-}
 /* fim header parceiros */ 
 .parceiros__sessao_apresentacao_at{
   margin:0 auto;
@@ -372,17 +625,6 @@ nav .header__logo_at{
 
 /* COMEÇO PAGINA BRIGADA *****************************************/
 /*header brigada*/
-.header__brigada__at {
-  height: 80vh;
-  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-brigada-de-incendio.jpg);
-  background-size: cover;
-  background-position: center;
-}
-.header__title_at {
-  color: var(--background-grey);
-  margin-left: 45%;
-  font-weight: bold;
-}
 /*fim da header brigada*/ 
 
 /*Primeira section BRIGADA*/ 
