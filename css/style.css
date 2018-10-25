@@ -65,7 +65,7 @@ nav .header__logo_at{
   max-width: 80px;
 }
 .nav__bg__at {
-  background-color:rgba(255, 255, 255, 0.466);
+  background-color:rgba(255, 255, 255, 0.666);
   position:fixed;
   width: 100%;
   z-index: 99;
