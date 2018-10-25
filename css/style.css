@@ -373,6 +373,10 @@ nav .header__logo_at{
 .heroes__img-card__at {
  text-align:center;
 }
+.heroes__img-card__at .team__legend__at{
+  font-size: .75rem;
+  margin: .5rem;
+}
 /* FIM HEROIS INVISIVEIS*/
 
 
