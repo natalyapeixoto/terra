@@ -390,10 +390,12 @@ nav .header__logo_at{
   display:flex;
   justify-content: center;
   align-items: center;
+  max-width:360px;
+  height:470px;
   background-color:var(--background-grey);
   border-radius: 15px;
-  height: 450px;
-  max-width: 300px;
+  /* height: 450px;
+  max-width: 300px; */
 }
 .card-body .card__font-size__at{
   font-size: 14px;
