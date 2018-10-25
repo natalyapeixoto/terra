@@ -3,7 +3,9 @@
 body {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
 }
+
 :root{
   /*cores*/
 --footer-grey: #3C3C3B;
@@ -48,7 +50,6 @@ a:hover {
 }
 .header__sections__at {
   height: 80vh;
-  
   background-size: cover;
   background-position: center;
 }
@@ -66,7 +67,7 @@ nav .header__logo_at{
 .nav__bg__at {
   background-color:rgba(255, 255, 255, 0.466);
   position:fixed;
-  width: 100vw;
+  width: 100%;
   z-index: 99;
   transition: all .5s;
 }
@@ -99,7 +100,6 @@ nav .header__logo_at{
 .home__title_at {
   font-size: 9vh;
   font-weight: bold;
-  text-shadow: 0 0 1px var(--footer-grey);
   max-width: 110vh;
 }
 .home__btn__green_at {
@@ -113,7 +113,6 @@ nav .header__logo_at{
 .home__title2_at {
   font-size: 9vh;
   font-weight: bold;
-  text-shadow: 0 0 1px var(--footer-grey);
   max-width: 130vh;
 }
 .home__btn__red_at {
@@ -176,7 +175,7 @@ nav .header__logo_at{
   padding: 0 20px 0 0;
 }
 .home__card__title2_at {
-  font-size: 40px;
+  font-size: 37px;
   text-align: right;
 }
 .home__card__text2_at {
@@ -205,6 +204,14 @@ nav .header__logo_at{
   cursor: pointer;
   filter: drop-shadow(0px 4px 4px #c3c3c3);
 }
+@media (max-width:768px){
+  .home__impact_at img:hover {
+      display:none;
+  }
+  .home__impact_at img {
+    display:none;
+  }
+}
 .home__impact__row_at {
   padding: 0 50px 0 70px;
 }
@@ -232,6 +239,7 @@ nav .header__logo_at{
   width: 25vh;
   height: 25vh; 
   margin: 70px 0;
+  border-radius:100%;
 }
 .home__depositions__carousel_at {
   margin-left: 70px;
@@ -360,18 +368,13 @@ nav .header__logo_at{
  color: var(--font-grey);
 }
 .heroes__legend__at {
- font-size:14px;
+ font-size:12px;
 }
 .heroes__img-card__at {
  text-align:center;
 }
 /* FIM HEROIS INVISIVEIS*/
 
-/*Inicio seção - Nosso time*/
-.team__legend__at{
-  font-size: .65rem;
-}
-/*Fim seção - Nosso time*/
 
 /*SECTION DONATION CARD*/ 
 .home__donation__at {
@@ -386,6 +389,7 @@ nav .header__logo_at{
   background-color:var(--background-grey);
   border-radius: 15px;
   height: 450px;
+  max-width: 300px;
 }
 .card-body .card__font-size__at{
   font-size: 14px;
@@ -549,13 +553,11 @@ nav .header__logo_at{
 }
 .title__at {
   font-weight: bold;
-  text-shadow: 0 0 1px grey;
   max-width: 110vh;
 }
 .title2__at {
   font-size: 9vh;
   font-weight: bold;
-  text-shadow: 0 0 1px grey;
   max-width: 130vh;
 }
 .btn__yellow_at {
@@ -653,12 +655,12 @@ nav .header__logo_at{
   display: block;
   margin: 0 auto;
 }
-.section__margin_at {
+/* .section__margin_at {
   margin: 0 10%;
-}
+} */
 .text1-brigada__at {
-  font-size:26px;
-  line-height: 30px;
+  font-size:36px;
+  line-height: 39px;
   border-left: 1px solid #AB5056;
   padding-left: 15px;
 }
@@ -676,8 +678,10 @@ nav .header__logo_at{
   margin-bottom: 3%;
 }
 .heroes__img__at {
-  width: 60%;
-  margin: 8px;
+  width: auto;
+  height: 55px;
+  margin: 10px;
+  border-radius:100%;
 }
 .btn__brigada__at {
   background-color: rgba(247, 244, 244, 0.842);
