@@ -374,6 +374,13 @@ nav .header__logo_at{
 }
 .home-brigate_img_at{
   width: 25%;
+  height: 25%;
+}
+@media (min-width:420px) {
+  .home-brigate_img_at{
+    width: 45%;
+    height: 45%;
+  }
 }
 
 @media(max-width: 420px) {
@@ -438,8 +445,6 @@ nav .header__logo_at{
   height:470px;
   background-color:var(--background-grey);
   border-radius: 15px;
-  /* height: 450px;
-  max-width: 300px; */
 }
 
 @media (max-width: 420px) {
@@ -466,6 +471,10 @@ nav .header__logo_at{
 .home__donation-card-img__at {
   width: auto;
   height: 80px;
+}
+.home__donation__paypal_at {
+  display: block;
+  margin: 0 auto;
 }
 .home__card-btn__at {
   display:block;
