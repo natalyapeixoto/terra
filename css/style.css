@@ -122,7 +122,7 @@ nav .header__logo_at{
   max-width: 110vh;
 }
 
-@media(max-width: 420px) {
+@media(max-width: 768px) {
   .home__title_at {
     font-size: 7vh;
   }
@@ -141,7 +141,7 @@ nav .header__logo_at{
   max-width: 130vh;
 }
 
-@media(max-width: 420px) {
+@media(max-width: 768px) {
   .home__title2_at {
     font-size: 7vh;
   }
@@ -373,21 +373,10 @@ nav .header__logo_at{
   background-color: var(--background-grey);
 }
 .home-brigate_img_at{
-  width: 25%;
-  height: 25%;
-}
-@media (min-width:420px) {
-  .home-brigate_img_at{
-    width: 45%;
-    height: 45%;
-  }
+  width: auto;
+  height: 20vh;
 }
 
-@media(max-width: 420px) {
-  .home-brigate_img_at {
-    width: 40%;
-  }
-}
 .home-brigate_text_at{
   font-size: 2rem;
 }
