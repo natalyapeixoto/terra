@@ -25,6 +25,12 @@ a:hover {
   color: white;
   text-decoration:none;
 }
+input:focus{
+  outline: none;
+}
+input:hover{
+  opacity: .7;
+}
 .text__red {
   color: var(--brigade-red);
 }
