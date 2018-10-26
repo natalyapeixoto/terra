@@ -59,6 +59,15 @@ a:hover {
   margin-left: 45%;
   font-weight: bold;
 }
+
+@media(max-width: 420px) {
+  .header__title-sections_at {
+    color: var(--background-grey);
+    margin-left: 25%;
+    font-weight: bold;
+  }
+}
+
 /*fim GERAL*/
 
 /*NAV BAR*/
