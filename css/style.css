@@ -40,24 +40,34 @@ a:hover {
 
 /*header sections brigade, produzindo certo e parceiros*/
 .produzindo__banner__at{
-  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/producao/capa-produtor.jpg);
+  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-produtor.png);
 }
 .parceiros__banner__at{
-  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-parceiros.jpg);
+  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-parceiros.png);
 }
 .brigade__banner__at{
-  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-brigada-de-incendio.jpg);
+  background:linear-gradient(to bottom, rgba(22, 22, 22, 0.493) 0, rgba(17, 17, 17, 0.747) 75%, #000000 100%), url(../assets/img/capa-brigada-de-incendio.jpeg);
 }
 .header__sections__at {
   height: 80vh;
   background-size: cover;
   background-position: center;
 }
+
 .header__title-sections_at {
   color: var(--background-grey);
   margin-left: 45%;
   font-weight: bold;
 }
+
+@media(max-width: 420px) {
+  .header__title-sections_at {
+    color: var(--background-grey);
+    margin-left: 25%;
+    font-weight: bold;
+  }
+}
+
 /*fim GERAL*/
 
 /*NAV BAR*/
@@ -78,6 +88,15 @@ nav .header__logo_at{
 .nav__at {
   margin-left: 40%;
   font-weight: bold;
+}
+
+.nav__bg__script_at {
+  background-color:white;
+  position:fixed;
+  width: 100%;
+  z-index: 99;
+  transition: all .5s;
+  box-shadow: 0px 2px 5px grey;
 }
 /*FIM NAV BAR*/
 
@@ -102,6 +121,12 @@ nav .header__logo_at{
   font-weight: bold;
   max-width: 110vh;
 }
+
+@media(max-width: 420px) {
+  .home__title_at {
+    font-size: 7vh;
+  }
+}
 .home__btn__green_at {
   background-color: var(--primary-green);
   border: none;
@@ -115,6 +140,13 @@ nav .header__logo_at{
   font-weight: bold;
   max-width: 130vh;
 }
+
+@media(max-width: 420px) {
+  .home__title2_at {
+    font-size: 7vh;
+  }
+}
+
 .home__btn__red_at {
   background-color: var(--brigade-red);
   border: none;
@@ -350,6 +382,12 @@ nav .header__logo_at{
     height: 45%;
   }
 }
+
+@media(max-width: 420px) {
+  .home-brigate_img_at {
+    width: 40%;
+  }
+}
 .home-brigate_text_at{
   font-size: 2rem;
 }
@@ -384,6 +422,12 @@ nav .header__logo_at{
   font-size: .75rem;
   margin: .5rem;
 }
+
+@media(max-width: 420px) {
+  .home__margin__responsive_at {
+    margin: 20px;
+  }
+}
 /* FIM HEROIS INVISIVEIS*/
 
 
@@ -401,6 +445,12 @@ nav .header__logo_at{
   height:470px;
   background-color:var(--background-grey);
   border-radius: 15px;
+}
+
+@media (max-width: 420px) {
+  .home__donation-card__at {
+    max-width: 320px;
+  }
 }
 .card-body .card__font-size__at{
   font-size: 14px;
@@ -447,6 +497,13 @@ nav .header__logo_at{
   font-size: 6.5vh;
   padding: 0px 320px 0 30px;
   font-weight: bold;
+}
+
+@media(max-width: 420px) {
+  .footer__title_at {
+    font-size: 5.5vh;
+    padding: 0px;
+  }
 }
 .footer__adress-links_at{
   text-align:right;
@@ -590,7 +647,7 @@ nav .header__logo_at{
 /* fim header parceiros */ 
 .parceiros__sessao_apresentacao_at{
   margin:0 auto;
-  padding:50px;
+  padding: 100px;
 }
 .parceiros__title {
   font-size: 5.5vh;
