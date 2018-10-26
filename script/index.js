@@ -1,12 +1,13 @@
-const bgNav =  document.querySelector(".nav__bg__at");
+const bgNav =  document.querySelector("nav")
 
 window.addEventListener("scroll", function(){
   if (pageYOffset >= 400) {
-    bgNav.style.backgroundColor ="white";
+    bgNav.classList.remove("nav__bg__at")
+    bgNav.classList.add("nav__bg__script_at")
   }
   if (pageYOffset < 400){
-    bgNav.style.backgroundColor ="rgba(255, 255, 255, 0.466)";
-    bgNav.style.boxShadow = "0px 0px 1px grey";
+    bgNav.classList.add("nav__bg__at")
+    bgNav.classList.remove("nav__bg__script_at")
   } 
 })
 
