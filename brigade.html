@@ -195,7 +195,11 @@
         <p class="card-text">Todo o trabalho da Aliança da Terra depende da contribuição financeira de vários setores:
           público, privado, sociedade civil, fundações e agências de desenvolvimento.<br><strong>Faça uma doação via
             paypal e apoie a nossa iniciativa!</strong></p>
-        <a class='brigade__card-btn__at py-2 text-center' href="https://www.paypal.com/donate/?token=XiXsa8rT--3uJC_ZrVvDJQ0r24ZtP51mwUV4QBI24uJdXPAASx6wQM29I1guD9BjLVDCDW&country.x=BR&locale.x=BR">Paypal</a>
+        <form id="form-livre" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="NTE8AMBR9A62N">
+          <input class="home__donation__paypal_at" type="image" src="assets/img/link_paypal_red.jpeg" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+        </form>
       </div>
     </div>
   </section>
