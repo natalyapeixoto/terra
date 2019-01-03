@@ -1,1 +1,879 @@
-a,a:hover{text-decoration:none}a:hover,input:hover{opacity:.7}.nav__bg__at,.nav__bg__script_at{position:fixed;transition:all .5s;z-index:99}.home-impact_btn_at:focus,input:focus{outline:0}body{box-sizing:border-box;font-family:'Open Sans',sans-serif;scroll-behavior:smooth}:root{--footer-grey:#3C3C3B;--font-grey:#575756;--background-grey:#F6F6F6;--partners-yellow:#FDD326;--primary-green:#60AB3E;--brigade-red:#BD1819}a{color:inherit}a:hover{color:#fff}.text__red{color:var(--brigade-red)}.text__grey{color:var(--footer-grey)}.text__yellow{color:var(--partners-yellow)}.text__green{color:var(--primary-green)}.produzindo__banner__at{background:linear-gradient(to bottom,rgba(22,22,22,.493) 0,rgba(17,17,17,.747) 75%,#000 100%),url(../assets/img/capa-produtor.png)}.parceiros__banner__at{background:linear-gradient(to bottom,rgba(22,22,22,.493) 0,rgba(17,17,17,.747) 75%,#000 100%),url(../assets/img/capa-parceiros.png)}.brigade__banner__at{background:linear-gradient(to bottom,rgba(22,22,22,.493) 0,rgba(17,17,17,.747) 75%,#000 100%),url(../assets/img/capa-brigada-de-incendio.jpeg)}.header__sections__at{height:80vh;background-size:cover;background-position:center}.header__title-sections_at{color:var(--background-grey);margin-left:45%;font-weight:700}@media(max-width:420px){.header__title-sections_at{color:var(--background-grey);margin-left:25%;font-weight:700}}nav .header__logo_at{max-width:80px}.nav__bg__at{background-color:rgba(255,255,255,.666);width:100%}.nav__logo_at{width:170px;height:45px}.nav__at{margin-left:40%;font-weight:700}.nav__bg__script_at{background-color:#fff;width:100%;box-shadow:0 2px 5px grey}.carousel-indicators li{width:15px;height:15px;border-radius:100%;border:2px solid #fff}.home__btn__green_at,.home__btn__red_at{border:none;width:130px;margin-right:30px;font-weight:700}.home__header__carousel_at img{object-fit:cover;height:100vh}.home__text_at{text-align:left}.home__title_at{font-size:9vh;font-weight:700;max-width:110vh}@media(max-width:768px){.home__title_at{font-size:7vh}}.home__btn__green_at{background-color:var(--primary-green);border-radius:20px}.home__title2_at{font-size:9vh;font-weight:700;max-width:130vh}@media(max-width:768px){.home__title2_at{font-size:7vh}}.home__btn__red_at{background-color:var(--brigade-red);border-radius:20px}.home__btn__yellow_at{background-color:var(--partners-yellow);border:none;width:130px;border-radius:20px;font-weight:700;margin-right:30px}.home__row__margin_at{margin:50px}.home__col_at{padding:10px 0;margin:20px 0}.home__border-left_at{border-left:2px solid var(--primary-green)}.home__body-left_at{padding:0 0 0 20px}.home__card__title_at{font-size:40px}.home__card__img-logo_at{display:flex;justify-content:center;align-items:center}.home__card__img-logo_at img{width:26vh;height:30vh}.home__card__img_at{display:flex;justify-content:center;align-items:center}.home__card__img_at img{width:30vh;height:30vh}.home__border-right_at{border-right:2px solid var(--primary-green)}.home__body-right_at{padding:0 20px 0 0}.home__card__title2_at{font-size:37px;text-align:right}.home__card__text2_at{text-align:right}.home__impact_at{background-color:var(--background-grey)}.home__impact_at p{font-size:20px;padding-top:60px}.home__impact_at img{width:78vh;height:60vh;object-fit:fill}.home__impact_at img:hover{transform:scale(1.9,1.8);transform-origin:right;z-index:99;background-color:#fff;border-radius:5px;transition:all .8s;cursor:pointer;filter:drop-shadow(0 4px 4px #c3c3c3)}@media (max-width:768px){.home__impact_at img,.home__impact_at img:hover{display:none}}.home__impact__row_at{padding:0 50px 0 70px}.home__impact__btn__green_at{background-color:var(--primary-green);border:none;width:180px;border-radius:20px;font-weight:700;margin-right:30px;color:#fff;margin-top:15px}.home__impact__img_at{display:flex;justify-content:center;align-items:center}.home__depositions_at{background-image:url(../assets/img/backgrounds/fundo-depoimentos.jpg);height:60vh}.home__depositions_at img{width:25vh;height:25vh;margin:70px 0;border-radius:100%}.home__depositions__carousel_at{margin-left:70px}.home__depositions__text_at{margin-left:80px;padding-top:0;top:32%}.home__depositions__text_at p{text-align:left;font-size:15px}.home__depositions__text_at span{text-align:left;font-style:italic;font-size:14px}.home__depositions__text2_at{margin-left:80px;top:10%}.home__depositions__text2_at p{text-align:left;font-size:15px}.home__depositions__text2_at span{text-align:left;font-style:italic;font-size:14px}@media (max-width:768px){.home__depositions_at{display:none}}.home-differential__title_at,.home-impact_title_at{font-weight:700;text-align:center;margin-bottom:30px;font-size:30px}.home-differential_text_at{border-left:2px solid var(--primary-green);padding-left:30px}.home-impact_card_at{background-color:var(--primary-green);border-radius:calc(1rem - 1px);width:18rem;height:380px}.home-impact_card_at:hover{background-color:#0c4b0c;cursor:pointer}.home-impact_img_at{width:auto;height:75px;margin-top:40px}.home-impact_text_at{color:var(--background-grey);font-weight:500;padding:0 20px;text-align:center}.home-impact_text__highlight_at{font-weight:700;font-size:40px}.home-impact_btn_at{border:none;background:#fff}.home-brigate_at,.home-impact_modal-contect_at,.home__donation-card__at{background-color:var(--background-grey)}.home-impact_modal-text_at{margin-bottom:0}.home-impact_modal-header_at{padding-bottom:0;border:none}.home-brigate_img_at{width:auto;height:20vh}.home-brigate_text_at{font-size:2rem}.heroes__img-card__at .team__legend__at{font-size:.75rem;margin:.5rem}@media(max-width:420px){.home__margin__responsive_at{margin:20px}}.home__donation__at{display:flex;justify-content:center;align-items:center}.home__donation-card__at{display:flex;justify-content:center;align-items:center;max-width:360px;height:470px;border-radius:15px}@media (max-width:420px){.home__donation-card__at{max-width:320px}}.card-body .card__font-size__at{font-size:14px}.home__donation-card__at h5{color:var(--primary-green);font-weight:700}.home__donation-card__at p{text-align:center;font-size:16px}.home__donation_card__title_at{text-align:center;font-size:32px}.home__donation-card-img__at{width:auto;height:80px}.home__donation__paypal_at{display:block;margin:0 auto}.home__card-btn__at{display:block;margin:20px auto 10px;background-color:var(--primary-green);width:200px;border-radius:20px;color:var(--background-grey);font-weight:700}.footer__at{background-color:var(--footer-grey);color:var(--background-grey)}.footer__title_at{font-size:6.5vh;font-weight:700}@media(max-width:420px){.footer__title_at{font-size:5.5vh;padding:0}}.footer__adress-links_at{text-align:right}.footer__img_at{width:25px}.footer__address_at{text-align:right;font-size:14px}.consumidor__logos,.empresa__img,.produto__alinha__flecha_at,.produto__app__texto_at,.produto__centralizar__text_at,.produto__final__texto_at{text-align:center}.footer__logo_at{width:150px}.produto__titulo__empresa_at{text-transform:uppercase;font-weight:700;margin-left:80px;color:#f58634}.produto__titulo__consumidor_at{text-transform:uppercase;font-weight:700;margin-left:65px;color:#007cc2}.produto__btn__green_at{background-color:var(--primary-green);border:none;width:260px;border-radius:30px;font-weight:700;margin:8px 0}.span__green_at{color:var(--primary-green)}.produto__margin__green_at{border-left:3px solid var(--primary-green)}.produto__plataforma__texto_at,.produto__rural__text,.produto__rural__texto_at,.produto__texto_at{line-height:30px}.produto__titulo__produtor-rural_at{text-transform:uppercase;font-weight:700;color:var(--primary-green);margin-left:50px}.produto__centralizar_at{align-self:center}.produto__alinha__flecha_at:hover{opacity:.5;filter:alpha(opacity=50)}.produto__empresa__infos_at,.produto__plataforma__bgcolor_at{background-color:var(--background-grey)}@media (max-width:768px){.produto__alinha__flecha_at{display:none}}.produto__app__margin_at{margin:30px}.produto__app__centro_at{display:block;margin:0 auto}.img-fluid.produto__img__width_at{max-width:90%}.text__right_at{text-align:right;left:42%}.text__at{text-align:left}.title__at{font-weight:700;max-width:110vh}.title2__at{font-size:9vh;font-weight:700;max-width:130vh}.btn__yellow_at{background-color:var(--partners-yellow);border:none;max-width:200px;border-radius:20px;font-weight:700;padding:10px 20px;text-align:center}.parceiros__sessao_apresentacao_at{margin:0 auto;padding:40px 0 100px}.parceiros__title{font-size:5.5vh}.parceiros__subtitle{margin-bottom:2.5vh}.parceiros__logos{display:grid;grid-template-columns:20% 20% 20% 20% 20%;grid-template-rows:20% 20% 20% 20% 20%;align-items:center;justify-items:center;min-height:500px}.parceiros__logos img{filter:grayscale(1);max-width:60px;max-height:50px}.parceiros__logos img:hover{filter:grayscale(0)}.parceiros__depoimento{background-image:url(../assets/img/backgrounds/fundo-depoimento-parceiros.jpg);padding:50px}.parceiros__depoimento_imagem{width:130px;margin-bottom:20px;align-self:center}.parceiros__depoimento_texto{text-align:center;color:#fff}.parceiros__quote{font-style:italic;margin:0 auto;padding:10px 0;font-size:.9rem}.parceiros__descricao{font-style:bold;font-size:.9rem}.transformacao{padding:50px 0;text-align:center;margin:0 auto}.parceiros__title__transformacao{font-weight:700;text-shadow:0 0 1px grey}@media (max-width:576px){.parceiros__logos{display:grid;grid-template-columns:30% 30% 30%;grid-template-rows:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;grid-gap:8px;align-items:center;justify-items:center;min-height:800px;padding:50px 0}}.logo-brigada__at{width:150px;display:block;margin:0 auto}.text1-brigada__at{font-size:36px;line-height:39px;border-left:1px solid #AB5056;padding-left:15px}.text2-col__at{top:-8px}.heroes__at{background:url(../assets/img/backgrounds/background-cinza.png);font-size:18px;color:#fff}.heros__title__at{margin-bottom:3%}.heroes__img__at{width:auto;height:55px;margin:10px;border-radius:100%}.btn__brigada__at{background-color:rgba(247,244,244,.842);font-weight:700;border-radius:20px;color:var(--font-grey)}.heroes__legend__at{font-size:14px}.heroes__img-card__at{text-align:center}.brigade__quote__at{background:url(../assets/img/backgrounds/fundo-depoimento-brigada.jpg) center;color:var(--background-grey);background-size:cover;line-height:24px;font-size:18px}.brigade_depo-img__at{width:45%;display:block;margin:0 auto}.btn__brigade__fifthsection__at,.btn__brigade__fourthsection__at{display:block;width:200px;border-radius:20px;color:var(--background-grey);font-weight:700}.brigade__fourthsection__title__at{margin-left:30%;margin-right:30%;text-align:center}.brigade__fourthsection__at{margin-left:10%;margin-right:10%;text-align:center}.btn__brigade__fourthsection__at{margin:20px auto 10px;background-color:var(--brigade-red)}.brigade__fifthsection__at{padding-left:15%;padding-right:15%;text-align:center;background-color:var(--background-grey)}.brigade__fifthsection__title__at{margin-left:20%;margin-right:20%;text-align:center}.btn__brigade__fifthsection__at{margin:20px auto 10px;background-color:var(--brigade-red)}.brigade__donation__at{display:flex;justify-content:center;align-items:center}.brigade__donation-card__at{display:flex;justify-content:center;align-items:center;width:300px;height:400px;background-color:var(--background-grey);border-radius:15px}.brigade__donation-card__at h5{color:var(--brigade-red);font-weight:700}.brigade__donation-card__at p{text-align:center;font-size:14px}.brigade__donation-card-img__at{width:80px}.brigade__card-btn__at{display:block;margin:20px auto 10px;background-color:var(--brigade-red);width:200px;border-radius:20px;color:var(--background-grey);font-weight:700}
+a,
+a:hover {
+    text-decoration: none
+}
+
+a:hover,
+input:hover {
+    opacity: .7
+}
+
+.nav__bg__at,
+.nav__bg__script_at {
+    position: fixed;
+    transition: all .5s;
+    z-index: 99
+}
+
+
+.home-impact_btn_at:focus,
+input:focus {
+    outline: 0
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth
+}
+
+:root {
+    --footer-grey: #3C3C3B;
+    --font-grey: #575756;
+    --background-grey: #F6F6F6;
+    --partners-yellow: #FDD326;
+    --primary-green: #60AB3E;
+    --brigade-red: #BD1819
+}
+
+a {
+    color: inherit
+}
+
+a:hover {
+    color: #fff
+}
+
+.text__red {
+    color: var(--brigade-red)
+}
+
+.text__grey {
+    color: var(--footer-grey)
+}
+
+.text__yellow {
+    color: var(--partners-yellow)
+}
+
+.text__green {
+    color: var(--primary-green)
+}
+
+.produzindo__banner__at {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, .493) 0, rgba(17, 17, 17, .747) 75%, #000 100%), url(../assets/img/capa-produtor.png)
+}
+
+.parceiros__banner__at {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, .493) 0, rgba(17, 17, 17, .747) 75%, #000 100%), url(../assets/img/capa-parceiros.png)
+}
+
+.brigade__banner__at {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, .493) 0, rgba(17, 17, 17, .747) 75%, #000 100%), url(../assets/img/capa-brigada-de-incendio.jpeg)
+}
+
+.header__sections__at {
+    height: 80vh;
+    background-size: cover;
+    background-position: center
+}
+
+.header__title-sections_at {
+    color: var(--background-grey);
+    margin-left: 45%;
+    font-weight: 700
+}
+
+@media(max-width:420px) {
+    .header__title-sections_at {
+        color: var(--background-grey);
+        margin-left: 25%;
+        font-weight: 700
+    }
+}
+
+nav .header__logo_at {
+    max-width: 80px
+}
+
+.nav__bg__at {
+    background-color: rgba(255, 255, 255, .666);
+    width: 100%
+}
+
+.nav__logo_at {
+    width: 210px;
+    height: 55px
+}
+
+.nav__at {
+    margin-left: 40%;
+    font-weight: 700
+}
+
+.nav__bg__script_at {
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 2px 5px grey
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 2px solid #fff
+}
+
+.home__btn__green_at,
+.home__btn__red_at {
+    border: none;
+    width: 130px;
+    margin-right: 30px;
+    font-weight: 700
+}
+
+.home__header__carousel_at img {
+    object-fit: cover;
+    height: 100vh
+}
+
+.home__text_at {
+    text-align: left
+}
+
+.home__title_at {
+    font-size: 9vh;
+    font-weight: 700;
+    max-width: 110vh
+}
+
+@media(max-width:768px) {
+    .home__title_at {
+        font-size: 7vh
+    }
+}
+
+.home__btn__green_at {
+    background-color: var(--primary-green);
+    border-radius: 20px
+}
+
+.home__title2_at {
+    font-size: 9vh;
+    font-weight: 700;
+    max-width: 130vh
+}
+
+@media(max-width:768px) {
+    .home__title2_at {
+        font-size: 7vh
+    }
+}
+
+.home__btn__red_at {
+    background-color: var(--brigade-red);
+    border-radius: 20px
+}
+
+.home__btn__yellow_at {
+    background-color: var(--partners-yellow);
+    border: none;
+    width: 130px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-right: 30px
+}
+
+.home__row__margin_at {
+    margin: 50px
+}
+
+.home__col_at {
+    padding: 10px 0;
+    margin: 20px 0
+}
+
+.home__border-left_at {
+    border-left: 2px solid var(--primary-green)
+}
+
+.home__body-left_at {
+    padding: 0 0 0 20px
+}
+
+.home__card__title_at {
+    font-size: 40px
+}
+
+.home__card__img-logo_at {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.home__card__img-logo_at img {
+    width: 26vh;
+    height: 30vh
+}
+
+.home__card__img_at {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.home__card__img_at img {
+    width: 30vh;
+    height: 30vh
+}
+
+.home__border-right_at {
+    border-right: 2px solid var(--primary-green)
+}
+
+.home__body-right_at {
+    padding: 0 20px 0 0
+}
+
+.home__card__title2_at {
+    font-size: 37px;
+    text-align: right
+}
+
+.home__card__text2_at {
+    text-align: right
+}
+
+.home__impact_at {
+    background-color: var(--background-grey)
+}
+
+.home__impact_at p {
+    font-size: 20px;
+    padding-top: 60px
+}
+
+.home__impact_at img {
+    width: 78vh;
+    height: 60vh;
+    object-fit: fill
+}
+
+.home__impact_at img:hover {
+    transform: scale(1.9, 1.8);
+    transform-origin: right;
+    z-index: 99;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: all .8s;
+    cursor: pointer;
+    filter: drop-shadow(0 4px 4px #c3c3c3)
+}
+
+@media (max-width:768px) {
+    .home__impact_at img,
+    .home__impact_at img:hover {
+        display: none
+    }
+}
+
+.home__impact__row_at {
+    padding: 0 50px 0 70px
+}
+
+.home__impact__btn__green_at {
+    background-color: var(--primary-green);
+    border: none;
+    width: 180px;
+    border-radius: 20px;
+    font-weight: 700;
+    margin-right: 30px;
+    color: #fff;
+    margin-top: 15px
+}
+
+.home__impact__img_at {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.home__depositions_at {
+    background-image: url(../assets/img/backgrounds/fundo-depoimentos.jpg);
+    height: 60vh
+}
+
+.home__depositions_at img {
+    width: 25vh;
+    height: 25vh;
+    margin: 70px 0;
+    border-radius: 100%
+}
+
+.home__depositions__carousel_at {
+    margin-left: 70px
+}
+
+.home__depositions__text_at {
+    margin-left: 80px;
+    padding-top: 0;
+    top: 32%
+}
+
+.home__depositions__text_at p {
+    text-align: left;
+    font-size: 15px
+}
+
+.home__depositions__text_at span {
+    text-align: left;
+    font-style: italic;
+    font-size: 14px
+}
+
+.home__depositions__text2_at {
+    margin-left: 80px;
+    top: 10%
+}
+
+.home__depositions__text2_at p {
+    text-align: left;
+    font-size: 15px
+}
+
+.home__depositions__text2_at span {
+    text-align: left;
+    font-style: italic;
+    font-size: 14px
+}
+
+@media (max-width:768px) {
+    .home__depositions_at {
+        display: none
+    }
+}
+
+.home-differential__title_at,
+.home-impact_title_at {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px
+}
+
+.home-differential_text_at {
+    border-left: 2px solid var(--primary-green);
+    padding-left: 30px
+}
+
+.home-impact_card_at {
+    background-color: var(--primary-green);
+    border-radius: calc(1rem - 1px);
+    width: 18rem;
+    height: 380px
+}
+
+.home-impact_card_at:hover {
+    background-color: #0c4b0c;
+    cursor: pointer
+}
+
+.home-impact_img_at {
+    width: auto;
+    height: 75px;
+    margin-top: 40px
+}
+
+.home-impact_text_at {
+    color: var(--background-grey);
+    font-weight: 500;
+    padding: 0 20px;
+    text-align: center
+}
+
+.home-impact_text__highlight_at {
+    font-weight: 700;
+    font-size: 40px
+}
+
+.home-impact_btn_at {
+    border: none;
+    background: #fff
+}
+
+.home-brigate_at,
+.home-impact_modal-contect_at,
+.home__donation-card__at {
+    background-color: var(--background-grey)
+}
+
+.home-impact_modal-text_at {
+    margin-bottom: 0
+}
+
+.home-impact_modal-header_at {
+    padding-bottom: 0;
+    border: none
+}
+
+.home-brigate_img_at {
+    width: auto;
+    height: 20vh
+}
+
+.home-brigate_text_at {
+    font-size: 2rem
+}
+
+.heroes__img-card__at .team__legend__at {
+    font-size: .75rem;
+    margin: .5rem
+}
+
+@media(max-width:420px) {
+    .home__margin__responsive_at {
+        margin: 20px
+    }
+}
+
+.home__donation__at {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.home__donation-card__at {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 360px;
+    height: 470px;
+    border-radius: 15px
+}
+
+@media (max-width:420px) {
+    .home__donation-card__at {
+        max-width: 320px
+    }
+}
+
+.card-body .card__font-size__at {
+    font-size: 14px
+}
+
+.home__donation-card__at h5 {
+    color: var(--primary-green);
+    font-weight: 700
+}
+
+.home__donation-card__at p {
+    text-align: center;
+    font-size: 16px
+}
+
+.home__donation_card__title_at {
+    text-align: center;
+    font-size: 32px
+}
+
+.home__donation-card-img__at {
+    width: auto;
+    height: 80px
+}
+
+.home__donation__paypal_at {
+    display: block;
+    margin: 0 auto
+}
+
+.home__card-btn__at {
+    display: block;
+    margin: 20px auto 10px;
+    background-color: var(--primary-green);
+    width: 200px;
+    border-radius: 20px;
+    color: var(--background-grey);
+    font-weight: 700
+}
+
+.footer__at {
+    background-color: var(--footer-grey);
+    color: var(--background-grey)
+}
+
+.footer__title_at {
+    font-size: 6.5vh;
+    font-weight: 700
+}
+
+@media(max-width:420px) {
+    .footer__title_at {
+        font-size: 5.5vh;
+        padding: 0
+    }
+}
+
+.footer__adress-links_at {
+    text-align: right
+}
+
+.footer__img_at {
+    width: 25px
+}
+
+.footer__address_at {
+    text-align: right;
+    font-size: 14px
+}
+
+.consumidor__logos,
+.empresa__img,
+.produto__alinha__flecha_at,
+.produto__app__texto_at,
+.produto__centralizar__text_at,
+.produto__final__texto_at {
+    text-align: center
+}
+
+.footer__logo_at {
+    width: 150px
+}
+
+.produto__titulo__empresa_at {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 80px;
+    color: #f58634
+}
+
+.produto__titulo__consumidor_at {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 65px;
+    color: #007cc2
+}
+
+.produto__btn__green_at {
+    background-color: var(--primary-green);
+    border: none;
+    width: 260px;
+    border-radius: 30px;
+    font-weight: 700;
+    margin: 8px 0
+}
+
+.span__green_at {
+    color: var(--primary-green)
+}
+
+.produto__margin__green_at {
+    border-left: 3px solid var(--primary-green)
+}
+
+.produto__plataforma__texto_at,
+.produto__rural__text,
+.produto__rural__texto_at,
+.produto__texto_at {
+    line-height: 30px
+}
+
+.produto__titulo__produtor-rural_at {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--primary-green);
+    margin-left: 50px
+}
+
+.produto__centralizar_at {
+    align-self: center
+}
+
+.produto__alinha__flecha_at:hover {
+    opacity: .5;
+    filter: alpha(opacity=50)
+}
+
+.produto__empresa__infos_at,
+.produto__plataforma__bgcolor_at {
+    background-color: var(--background-grey)
+}
+
+@media (max-width:768px) {
+    .produto__alinha__flecha_at {
+        display: none
+    }
+}
+
+.produto__app__margin_at {
+    margin: 30px
+}
+
+.produto__app__centro_at {
+    display: block;
+    margin: 0 auto
+}
+
+.img-fluid.produto__img__width_at {
+    max-width: 90%
+}
+
+.text__right_at {
+    text-align: right;
+    left: 42%
+}
+
+.text__at {
+    text-align: left
+}
+
+.title__at {
+    font-weight: 700;
+    max-width: 110vh
+}
+
+.title2__at {
+    font-size: 9vh;
+    font-weight: 700;
+    max-width: 130vh
+}
+
+.btn__yellow_at {
+    background-color: var(--partners-yellow);
+    border: none;
+    max-width: 200px;
+    border-radius: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    text-align: center
+}
+
+.parceiros__sessao_apresentacao_at {
+    margin: 0 auto;
+    padding: 40px 0 100px
+}
+
+.parceiros__title {
+    font-size: 5.5vh
+}
+
+.parceiros__subtitle {
+    margin-bottom: 2.5vh
+}
+
+.parceiros__logos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    align-items: center;
+    justify-items: center;
+    min-height: 500px
+}
+
+.parceiros__logos img {
+    filter: grayscale(1);
+    max-width: 60px;
+    max-height: 50px
+}
+
+.parceiros__logos img:hover {
+    filter: grayscale(0)
+}
+
+.parceiros__depoimento {
+    background-image: url(../assets/img/backgrounds/fundo-depoimento-parceiros.jpg);
+    padding: 50px
+}
+
+.parceiros__depoimento_imagem {
+    width: 130px;
+    margin-bottom: 20px;
+    align-self: center
+}
+
+.parceiros__depoimento_texto {
+    text-align: center;
+    color: #fff
+}
+
+.parceiros__quote {
+    font-style: italic;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: .9rem
+}
+
+.parceiros__descricao {
+    font-style: bold;
+    font-size: .9rem
+}
+
+.transformacao {
+    padding: 50px 0;
+    text-align: center;
+    margin: 0 auto
+}
+
+.parceiros__title__transformacao {
+    font-weight: 700;
+    text-shadow: 0 0 1px grey
+}
+
+@media (max-width:576px) {
+    .parceiros__logos {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+        grid-gap: 8px;
+        align-items: center;
+        justify-items: center;
+        min-height: 800px;
+        padding: 50px 0
+    }
+}
+
+.logo-brigada__at {
+    width: 150px;
+    display: block;
+    margin: 0 auto
+}
+
+.text1-brigada__at {
+    font-size: 36px;
+    line-height: 39px;
+    border-left: 1px solid #AB5056;
+    padding-left: 15px
+}
+
+.text2-col__at {
+    top: -8px
+}
+
+.heroes__at {
+    background: url(../assets/img/backgrounds/background-cinza.png);
+    font-size: 18px;
+    color: #fff
+}
+
+.heros__title__at {
+    margin-bottom: 3%
+}
+
+.heroes__img__at {
+    width: auto;
+    height: 55px;
+    margin: 10px;
+    border-radius: 100%
+}
+
+.btn__brigada__at {
+    background-color: rgba(247, 244, 244, .842);
+    font-weight: 700;
+    border-radius: 20px;
+    color: var(--font-grey)
+}
+
+.heroes__legend__at {
+    font-size: 14px
+}
+
+.heroes__img-card__at {
+    text-align: center
+}
+
+.brigade__quote__at {
+    background: url(../assets/img/backgrounds/fundo-depoimento-brigada.jpg) center;
+    color: var(--background-grey);
+    background-size: cover;
+    line-height: 24px;
+    font-size: 18px
+}
+
+.brigade_depo-img__at {
+    width: 45%;
+    display: block;
+    margin: 0 auto
+}
+
+.btn__brigade__fifthsection__at,
+.btn__brigade__fourthsection__at {
+    display: block;
+    width: 200px;
+    border-radius: 20px;
+    color: var(--background-grey);
+    font-weight: 700
+}
+
+.brigade__fourthsection__title__at {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center
+}
+
+.brigade__fourthsection__at {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center
+}
+
+.btn__brigade__fourthsection__at {
+    margin: 20px auto 10px;
+    background-color: var(--brigade-red)
+}
+
+.brigade__fifthsection__at {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    background-color: var(--background-grey)
+}
+
+.brigade__fifthsection__title__at {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center
+}
+
+.btn__brigade__fifthsection__at {
+    margin: 20px auto 10px;
+    background-color: var(--brigade-red)
+}
+
+.brigade__donation__at {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.brigade__donation-card__at {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    background-color: var(--background-grey);
+    border-radius: 15px
+}
+
+.brigade__donation-card__at h5 {
+    color: var(--brigade-red);
+    font-weight: 700
+}
+
+.brigade__donation-card__at p {
+    text-align: center;
+    font-size: 14px
+}
+
+.brigade__donation-card-img__at {
+    width: 80px
+}
+
+.brigade__card-btn__at {
+    display: block;
+    margin: 20px auto 10px;
+    background-color: var(--brigade-red);
+    width: 200px;
+    border-radius: 20px;
+    color: var(--background-grey);
+    font-weight: 700
+}
