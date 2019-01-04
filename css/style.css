@@ -436,9 +436,15 @@ nav .header__logo_at {
     font-size: 2rem
 }
 
-.heroes__img-card__at .team__legend__at {
+.team__legend__at {
     font-size: .75rem;
     margin: .5rem
+}
+
+.heroes__img-card__at{
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 @media(max-width:420px) {
