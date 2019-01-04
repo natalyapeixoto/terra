@@ -189,7 +189,10 @@ nav .header__logo_at {
 
 .home__col_at {
     padding: 10px 0;
-    margin: 20px 0
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .home__border-left_at {
@@ -198,10 +201,6 @@ nav .header__logo_at {
 
 .home__body-left_at {
     padding: 0 0 0 20px
-}
-
-.home__card__title_at {
-    font-size: 40px
 }
 
 .home__card__img-logo_at {
@@ -234,28 +233,45 @@ nav .header__logo_at {
     padding: 0 20px 0 0
 }
 
+.home__card__title_at {
+    font-size: 1.5rem;
+}
+
 .home__card__title2_at {
-    font-size: 37px;
-    text-align: right
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.home__card__text_at {
+    font-size: 1.1rem;
 }
 
 .home__card__text2_at {
-    text-align: right
+    font-size: 1.1rem;
+    text-align: right;
 }
 
 .home__impact_at {
-    background-color: var(--background-grey)
+    background-color: var(--background-grey);
 }
 
+.home__impact_col_at {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home__impact_row_at {
+    margin: 0px 50px 0 50px;
+}
 .home__impact_at p {
-    font-size: 20px;
-    padding-top: 60px
+    font-size: 1.1rem;
+    padding-top: 60px;
 }
 
 .home__impact_at img {
     width: 78vh;
     height: 60vh;
-    object-fit: fill
+    object-fit: fill;
 }
 
 .home__impact_at img:hover {
@@ -274,10 +290,6 @@ nav .header__logo_at {
     .home__impact_at img:hover {
         display: none
     }
-}
-
-.home__impact__row_at {
-    padding: 0 50px 0 70px
 }
 
 .home__impact__btn__green_at {
