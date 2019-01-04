@@ -549,14 +549,14 @@ nav .header__logo_at {
 .produto__titulo__empresa_at {
     text-transform: uppercase;
     font-weight: 700;
-    margin-left: 80px;
+    margin-left: 73px;
     color: #f58634
 }
 
 .produto__titulo__consumidor_at {
     text-transform: uppercase;
     font-weight: 700;
-    margin-left: 65px;
+    margin-left: 50px;
     color: #007cc2
 }
 
@@ -622,6 +622,11 @@ nav .header__logo_at {
 
 .img-fluid.produto__img__width_at {
     max-width: 90%
+}
+
+.img-fluid.produto__img__width_at:hover {
+    opacity: .5;
+    filter: alpha(opacity=50);
 }
 
 .text__right_at {
