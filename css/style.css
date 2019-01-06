@@ -679,7 +679,9 @@ nav .header__logo_at {
 
 .parceiros__sessao_apresentacao_at {
     margin: 0 auto;
-    padding: 40px 0 100px
+    padding: 40px 0 100px;
+    margin-bottom: 50px;
+
 }
 
 .parceiros__title {
@@ -696,13 +698,14 @@ nav .header__logo_at {
     grid-template-rows: 20% 20% 20% 20% 20%;
     align-items: center;
     justify-items: center;
-    min-height: 500px
+    min-height: 376px;
 }
 
 .parceiros__logos img {
     filter: grayscale(1);
     max-width: 60px;
-    max-height: 50px
+    max-height: 55px;
+    padding: 5px;
 }
 
 .parceiros__logos img:hover {
@@ -733,7 +736,7 @@ nav .header__logo_at {
 }
 
 .parceiros__descricao {
-    font-style: bold;
+    font-style: italic;
     font-size: .9rem
 }
 
