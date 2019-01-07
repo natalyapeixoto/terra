@@ -680,7 +680,7 @@ nav .header__logo_at {
 .parceiros__sessao_apresentacao_at {
     margin: 0 auto;
     padding: 40px 0 100px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 
 }
 
@@ -695,7 +695,7 @@ nav .header__logo_at {
 .parceiros__logos {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20% 20% 20%;
     align-items: center;
     justify-items: center;
     min-height: 376px;
